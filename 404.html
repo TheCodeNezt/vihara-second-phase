@@ -78,9 +78,36 @@
   <h1>404</h1>
   <p>Looks like you wandered off the path. This page doesn't exist in our directory.</p>
 
-  <a href="index.html" class="btn-home" onclick="if(history.length>1){history.back();return false;}">
+  <a href="index.html" class="btn-home">
     <i class="fas fa-arrow-left"></i> Go Back
   </a>
+
+  <p style="margin-top:20px; font-size:0.8rem; color:#aaa;">If you were following an old link, we just tried to take you to the right place.</p>
+
+  <script>
+    /* Vihara — redirect old Shravanabelagola URLs to the new city folder.
+       Runs on GitHub Pages (which serves this file for any missing path). */
+    (function () {
+      var path = window.location.pathname.replace(/^\//, '');
+      var target = null;
+
+      if (path === '' || path === 'index.html') {
+        target = 'cities/shravanabelagola/';
+      } else if (path.indexOf('categories/') === 0 ||
+                 path.indexOf('images/') === 0 ||
+                 path.indexOf('js/') === 0) {
+        target = 'cities/shravanabelagola/' + path;
+      } else if (path === 'gallery.html' || path === 'map.html' ||
+                 path === 'more_categories.html' || path === 'gallery_data.json' ||
+                 path === 'chandhragiri.jpeg') {
+        target = 'cities/shravanabelagola/' + path;
+      }
+
+      if (target && path.indexOf(target) === -1) {
+        window.location.replace('/' + target + window.location.search);
+      }
+    })();
+  </script>
 
 </body>
 </html>

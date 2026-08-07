@@ -1,0 +1,47 @@
+[
+  {
+    "id": "rest4",
+    "name": "Cane Hut",
+    "cuisine": "Beverages • Juices",
+    "diet": "Veg And Non-Veg",
+    "image": "../../images/explorica/street_foods/cane_hut.jpeg",
+    "location": "Market Circle",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/2NWSm74g6XMGHoLBA",
+    "status": "Serving Fresh",
+    "statusColor": "#3498db",
+    "timings": "10:00 AM - 8:00 PM",
+    "price": "₹",
+    "description": "Refreshing spot offering freshly crushed sugarcane juice with a hint of ginger and lemon, alongside light local snacks to beat the heat."
+  },
+  {
+    "id": "rest5",
+    "name": "Durgaparameshwari Sandwich",
+    "cuisine": "Street Food • Sandwiches",
+    "diet": "Pure Veg",
+    "image": "../../images/explorica/street_foods/durgaparameshwari_sandwich.jpeg",
+    "location": "College Road",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/As2efJwDxyCG6h3b6",
+    "status": "Evening Rush",
+    "statusColor": "#e74c3c",
+    "timings": "3:00 PM - 10:00 PM",
+    "price": "₹",
+    "description": "Street-side favorite serving a huge variety of grilled and toasted sandwiches, loaded with cheese, fresh veggies, and spicy green chutney."
+  },
+  {
+    "id": "rest6",
+    "name": "Mumbai Chai",
+    "cuisine": "Tea • Snacks",
+    "diet": "Pure Veg",
+    "image": "../../images/explorica/street_foods/mumbai_chai.jpeg",
+    "location": "Highway Corner",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/Aq7xgVMcswmbZ3NC8",
+    "status": "Brewing Now",
+    "statusColor": "#d35400",
+    "timings": "6:00 AM - 11:00 PM",
+    "price": "₹",
+    "description": "The go-to spot for authentic strong Kadak chai, bun maska, and hot samosas. Perfect for evening hangouts and quick refreshment breaks."
+  }
+]

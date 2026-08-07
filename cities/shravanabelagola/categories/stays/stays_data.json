@@ -1,0 +1,44 @@
+[
+  {
+    "id": "yatri1",
+    "name": "Yatri Nivas",
+    "type": "Pilgrim Accommodation",
+    "image": "../../images/explorica/stays/yatri_nivas.jpeg",
+    "location": "Base of Vindhyagiri Hill",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/YatriNivasDummyLink",
+    "status": "Walk-ins Welcome",
+    "statusColor": "#27ae60",
+    "amenities": "Double Bed • Quiet • Temple Proximity",
+    "checkin": "24 Hours Check-in",
+    "description": "Dedicated pilgrim accommodation offering basic, clean, and highly affordable rooms. Located right at the base of the hill for easy early-morning access to the temple steps."
+  },
+  {
+    "id": "lodge1",
+    "name": "SDK Residency",
+    "type": "Private Lodge",
+    "image": "../../images/explorica/stays/sdk_residancy.jpeg",
+    "location": "Main Road, Beside KEB Office",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/yYnFyGCiBGaLYgNp8",
+    "status": "Rooms Available",
+    "statusColor": "#27ae60",
+    "amenities": "AC/Non-AC • TV • Hot Water",
+    "checkin": "24 Hours Check-in",
+    "description": "A well-maintained private residency offering comfortable rooms with modern basic amenities. Ideal for families and tourists looking for a convenient stay near the town center."
+  },
+  {
+    "id": "guest1",
+    "name": "A-Block Yatri Nivas",
+    "type": "Guest House",
+    "image": "../../images/explorica/stays/town_guest_house.jpeg",
+    "location": "Near Temple Administration",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/zcmYUHGjbQpnW57R6",
+    "status": "Booking Open",
+    "statusColor": "#2980b9",
+    "amenities": "Non-AC • Clean Washrooms • Drinking Water",
+    "checkin": "Check-in: -",
+    "description": "Affordable and peaceful guest house accommodation providing clean, no-frills rooms. A great budget-friendly option for visitors exploring the heritage sites."
+  }
+]

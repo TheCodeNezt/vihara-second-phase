@@ -1,0 +1,59 @@
+
+[
+  {
+    "id": "bar1",
+    "name": "Daivik Comfort",
+    "type": "Boarding & Permit Room",
+    "image": "../../images/explorica/bar/daivik_comfort.jpeg",
+    "location": "Near Maruthi Circle, Bangalore Road",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/1QMx1ZcLyYfPBpfJA",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "10:30 AM - 11:00 PM",
+    "ambiance": "Spacious • Local Seating",
+    "description": "Popular town lodging and permit room with comfortable hall seating. Famous for cold bottled beers, hot egg chili, and spicy chicken chakhna."
+  },
+  {
+    "id": "bar2",
+    "name": "Sri Vinayaka Bar",
+    "type": "Local Town Bar",
+    "image": "../../images/explorica/bar/sri_vinayaka_bar.jpeg",
+    "location": "Near Maruthi Circle, Bangalore Road",
+    "phone": "",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=Government+Hospital+Shravanabelagola",
+    "status": "Evening Rush",
+    "statusColor": "#f39c12",
+    "timings": "10:00 AM - 10:30 PM",
+    "ambiance": "Loud • Town Adda",
+    "description": "Bustling local hangout spot located right near the bus stand. Quick service, budget-friendly local liquor brands, and authentic spicy Nati-style chicken fry."
+  },
+  {
+    "id": "bar3",
+    "name": "MSIL Bar",
+    "type": "Govt MRP Wine Outlet",
+    "image": "../../images/explorica/bar/msil_bar.jpeg",
+    "location": "N,G Koppalu Circle",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/mtoSkX76sYRLteaF7",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "10:00 AM - 10:00 PM",
+    "ambiance": "No-Frills • Counter Service",
+    "description": "Government-authorized MSIL retail outlet offering genuine liquor brands at fixed government MRP rates with basic counter service."
+  },
+  {
+    "id": "bar4",
+    "name": "Prakruthi Bar",
+    "type": "Dhaba & Garden Bar",
+    "image": "../../images/explorica/bar/prakruthi_bar.jpeg",
+    "location": "N,G Koppalu Circle",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/SJYvrvVNXfuNSCbj8",
+    "status": "Busy Evenings",
+    "statusColor": "#e74c3c",
+    "timings": "11:00 AM - 11:00 PM",
+    "ambiance": "Open Air • Outskirt Hut Seating",
+    "description": "Spacious garden dhaba located on the town outskirts. Ideal for group gatherings with open outdoor hut seating, chilled drinks, and spicy pepper dry."
+  }
+]

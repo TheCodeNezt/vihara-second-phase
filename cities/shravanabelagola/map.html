@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Navigate | Vihara</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+/* ===== RESET & VARIABLES ===== */
+:root {
+  --primary: #FF9933;
+  --text-dark: #333;
+  --bg-light: #f4f4f4;
+  --white: #ffffff;
+  --shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-light);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevents scroll on body */
+}
+
+/* ===== HEADER (Floating) ===== */
+.map-header {
+  position: absolute;
+  top: 20px; left: 20px; right: 20px;
+  z-index: 100;
+  display: flex; gap: 10px;
+}
+
+.back-btn {
+  background: var(--white);
+  width: 45px; height: 45px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-dark);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+  font-size: 1.2rem;
+}
+
+.search-dummy {
+  flex: 1;
+  background: var(--white);
+  height: 45px;
+  border-radius: 50px;
+  display: flex; align-items: center;
+  padding: 0 20px;
+  color: #888;
+  font-size: 0.9rem;
+  box-shadow: var(--shadow);
+}
+
+/* ===== MAP CONTAINER ===== */
+.map-wrapper {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ===== BOTTOM DRAWER (The "Good Layout" Part) ===== */
+.bottom-drawer {
+  position: absolute;
+  bottom: 0; left: 0; width: 100%;
+  background: transparent;
+  z-index: 100;
+  padding: 0 0 20px 0;
+}
+
+/* Category Chips */
+.chip-scroll {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  overflow-x: auto;
+  margin-bottom: 10px;
+  scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+.chip-scroll::-webkit-scrollbar { display: none; } /* Hide scrollbar Chrome */
+
+.chip {
+  background: var(--white);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  white-space: nowrap;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: flex; align-items: center; gap: 6px;
+  text-decoration: none;
+}
+.chip i { color: var(--primary); }
+
+/* Horizontal Location Cards */
+.location-scroll {
+  display: flex;
+  gap: 15px;
+  padding: 0 20px 20px 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.location-scroll::-webkit-scrollbar { display: none; }
+
+.loc-card {
+  min-width: 260px;
+  background: var(--white);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.2s;
+}
+
+.loc-img {
+  width: 70px; height: 70px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.loc-info h4 { margin: 0; font-size: 0.95rem; color: #333; }
+.loc-info p { margin: 2px 0 8px 0; font-size: 0.75rem; color: #777; }
+
+.btn-go {
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  font-size: 0.75rem;
+  padding: 5px 12px;
+  border-radius: 4px;
+  display: inline-block;
+}
+</style>
+</head>
+
+<body>
+
+  <div class="map-header">
+    <a href="index.html" class="back-btn" onclick="if(history.length>1){history.back();return false;}"><i class="fas fa-arrow-left"></i></a>
+    <div class="search-dummy">
+      <i class="fas fa-search" style="margin-right: 10px; color: var(--primary);"></i>
+      Search Shravanabelagola...
+    </div>
+  </div>
+
+  <div class="map-wrapper">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31105.78361719282!2d76.47167732959885!3d12.857647246535263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba53f656722d423%3A0x63347b749d972754!2sShravanabelagola%2C%20Karnataka%20573135!5e0!3m2!1sen!2sin!4v1705668953000!5m2!1sen!2sin" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <div class="bottom-drawer">
+    
+    <div class="chip-scroll">
+      <a href="categories/temples/temples.html" class="chip"><i class="fas fa-gopuram"></i> Temples</a>
+      <a href="categories/food/food.html" class="chip"><i class="fas fa-utensils"></i> Food</a>
+      <a href="categories/retail_shops/retail_shops.html" class="chip"><i class="fas fa-store"></i> Shops</a>
+      <a href="categories/street_food/street_food.html" class="chip"><i class="fas fa-bowl-food"></i> Street Food</a>
+      <a href="categories/transport/transport.html" class="chip"><i class="fas fa-bus"></i> Transport</a>
+      <a href="categories/stays/stays.html" class="chip"><i class="fas fa-bed"></i> Stay</a>
+      <a href="more_categories.html" class="chip"><i class="fas fa-th-large"></i> All</a>
+    </div>
+
+    <div class="location-scroll">
+      
+      <div class="loc-card">
+        <img src="images/indhragiri.jpg" class="loc-img" alt="Statue">
+        <div class="loc-info">
+          <h4>Vindhyagiri Hill</h4>
+          <p>Main Bahubali Statue</p>
+          <a href="https://maps.app.goo.gl/jg86XrhoJCbDqn6r9" target="_blank" class="btn-go">
+            <i class="fas fa-location-arrow"></i> Navigate
+          </a>
+        </div>
+      </div>
+
+      <div class="loc-card">
+        <img src="chandhragiri.jpeg" class="loc-img" alt="Hill">
+        <div class="loc-info">
+          <h4>Chandragiri Hill</h4>
+          <p>Ancient Inscriptions</p>
+          <a href="https://maps.app.goo.gl/cSWB8aEgzX7vYuzz8" target="_blank" class="btn-go">
+            <i class="fas fa-location-arrow"></i> Navigate
+          </a>
+        </div>
+      </div>
+
+      <div class="loc-card">
+        <img src="images/bhandara_basadhi.jpg" class="loc-img" alt="Pond">
+        <div class="loc-info">
+          <h4>Bhandara Basadi</h4>
+          <p>Historic Temple Pond</p>
+          <a href="https://maps.app.goo.gl/nHzVH3dmLTSpbHHx5" target="_blank" class="btn-go">
+            <i class="fas fa-location-arrow"></i> Navigate
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+{
+  "state": "karnataka",
+  "stateDisplay": "Karnataka",
+  "district": "hassan",
+  "districtDisplay": "Hassan",
+  "blurb": "Hassan district — the land of Hoysala temples, misty ghats and bustling regional markets. Discover shops, stays, food and services across sixteen towns.",
+  "focusImage": "cities/shravanabelagola/images/explorica/chandhragiri.jpeg",
+  "tiers": {
+    "1": {
+      "name": "Tier 1 — Town Centres",
+      "tagline": "Full commercial hubs: retail, restaurants, services and gyms.",
+      "icon": "fa-city"
+    },
+    "2": {
+      "name": "Tier 2 — Heritage & Tourism",
+      "tagline": "Homestays, resorts, cafes and cultural heritage with rich visuals.",
+      "icon": "fa-mountain-sun"
+    },
+    "3": {
+      "name": "Tier 3 — Regional Trade",
+      "tagline": "Weekly santhes, markets and contractor services.",
+      "icon": "fa-store"
+    },
+    "4": {
+      "name": "Tier 4 — Micro Markets",
+      "tagline": "Specialised boutique offerings and smaller town conveniences.",
+      "icon": "fa-shop"
+    }
+  },
+  "towns": [
+    {
+      "slug": "hassan",
+      "name": "Hassan",
+      "tier": 1,
+      "focus": "Retail, restaurants and daily services",
+      "primaryCategories": ["retail_shops", "food", "services", "fitness", "markets"]
+    },
+    {
+      "slug": "arsikere",
+      "name": "Arsikere",
+      "tier": 1,
+      "focus": "Railway junction trade and retail",
+      "primaryCategories": ["retail_shops", "food", "transport", "services", "street_food"]
+    },
+    {
+      "slug": "channarayapatna",
+      "name": "Channarayapatna",
+      "tier": 1,
+      "focus": "Commercial hub of southern Hassan",
+      "primaryCategories": ["retail_shops", "food", "markets", "services", "fitness", "education"]
+    },
+    {
+      "slug": "belur",
+      "name": "Belur",
+      "tier": 2,
+      "focus": "Hoysala heritage and tourism",
+      "primaryCategories": ["temples", "stays", "food", "nature", "travels"]
+    },
+    {
+      "slug": "sakleshpur",
+      "name": "Sakleshpur",
+      "tier": 2,
+      "focus": "Coffee estates, homestays and misty ghats",
+      "primaryCategories": ["stays", "nature", "travels", "cafes", "food"]
+    },
+    {
+      "slug": "shravanabelagola",
+      "name": "Shravanabelagola",
+      "tier": 2,
+      "focus": "Bahubali pilgrimage and heritage basadis",
+      "primaryCategories": ["temples", "street_food", "stays", "food", "retail_shops"]
+    },
+    {
+      "slug": "halebidu",
+      "name": "Halebidu",
+      "tier": 2,
+      "focus": "Hoysaleswara temple and heritage stay",
+      "primaryCategories": ["temples", "stays", "street_food", "food", "travels"]
+    },
+    {
+      "slug": "holenarasipura",
+      "name": "Holenarasipura",
+      "tier": 3,
+      "focus": "Regional market and santhe",
+      "primaryCategories": ["markets", "retail_shops", "food", "transport", "services"]
+    },
+    {
+      "slug": "arkalgud",
+      "name": "Arkalgud",
+      "tier": 3,
+      "focus": "Sandalwood trade and weekly market",
+      "primaryCategories": ["markets", "retail_shops", "services", "food"]
+    },
+    {
+      "slug": "alur",
+      "name": "Alur",
+      "tier": 3,
+      "focus": "Mango orchards and local trade",
+      "primaryCategories": ["markets", "food", "retail_shops", "nature"]
+    },
+    {
+      "slug": "gorur",
+      "name": "Gorur",
+      "tier": 4,
+      "focus": "River Hemavathi micro-market",
+      "primaryCategories": ["markets", "food", "retail_shops"]
+    },
+    {
+      "slug": "banavara",
+      "name": "Banavara",
+      "tier": 4,
+      "focus": "Specialised local conveniences",
+      "primaryCategories": ["retail_shops", "services", "food"]
+    },
+    {
+      "slug": "ramanathapura",
+      "name": "Ramanathapura",
+      "tier": 4,
+      "focus": "Temple town micro-market",
+      "primaryCategories": ["temples", "street_food", "retail_shops"]
+    },
+    {
+      "slug": "javagal",
+      "name": "Javagal",
+      "tier": 4,
+      "focus": "Regional silk and tobacco trade",
+      "primaryCategories": ["markets", "retail_shops", "food"]
+    },
+    {
+      "slug": "hanabalu",
+      "name": "Hanabalu",
+      "tier": 4,
+      "focus": "Specialised local traders",
+      "primaryCategories": ["retail_shops", "services", "food"]
+    }
+  ]
+}

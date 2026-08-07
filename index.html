@@ -12,8 +12,8 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Vihara | Explore Shravanabelagola</title>
-<meta name="description" content="Vihara is your complete guide to Shravanabelagola — discover temples, street food, markets, shops, transport and local services. Find any business and contact the owner directly.">
+<title>Vihara | Every Town, One Guide</title>
+<meta name="description" content="Vihara is your complete guide to towns across India — discover temples, street food, markets, shops, transport, stays and local services in every town. Find any business and contact the owner directly.">
 
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
@@ -40,15 +40,14 @@ body {
 }
 
 /* ===== TICKER ===== */
-/* ===== TICKER (Midnight: Sleek & Subtle) ===== */
 .ticker-wrap {
-  background: #1a252f; /* Darker than header */
-  color: #bdc3c7; /* Light grey text for better readability */
-  font-size: 0.85rem; 
-  padding: 8px 0; 
-  overflow: hidden; 
+  background: #1a252f;
+  color: #bdc3c7;
+  font-size: 0.85rem;
+  padding: 8px 0;
+  overflow: hidden;
   white-space: nowrap;
-  position: relative; 
+  position: relative;
   z-index: 1001;
   border-bottom: 1px solid rgba(255,255,255,0.05);
 }
@@ -56,113 +55,98 @@ body {
 @keyframes ticker { 0% { transform: translate3d(0, 0, 0); } 100% { transform: translate3d(-100%, 0, 0); } }
 
 /* ===== HEADER ===== */
-/* ===== HEADER (UPDATED: Premium Dark Theme) ===== */
 .site-header {
   position: sticky; top: 0; z-index: 1000;
-  
-  /* CHANGED: White -> Dark Accent Color */
-  background: var(--accent); 
-  
+  background: var(--accent);
   padding: 0.8rem 5%;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.15); /* Slightly darker shadow */
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
   display: flex; justify-content: space-between; align-items: center;
 }
 
-/* Logo lockup: icon + wordmark shown side by side on a white badge */
 .logo-container { display: inline-flex; align-items: center; gap: 9px; height: 48px; padding: 6px 14px; background: #ffffff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.18); text-decoration: none; }
 .logo-icon { height: 34px; width: auto; display: block; }
 .logo-wordmark { height: 22px; width: auto; display: block; }
 
 .nav-links { display: flex; align-items: center; gap: 20px; }
 
-/* CHANGED: Text color from Dark to White */
-.nav-links a { 
-  text-decoration: none; 
-  color: rgba(255, 255, 255, 0.9); /* Soft White */
-  font-weight: 500; 
-  font-size: 0.95rem; 
-  transition: 0.3s; 
+.nav-links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: 0.3s;
 }
 
-/* CHANGED: Hover color to Saffron to match logo */
-.nav-links a:hover { 
-  color: var(--primary); 
+.nav-links a:hover {
+  color: var(--primary);
   opacity: 1;
 }
 
-/* Add Button Style update */
-.add-btn { 
-  background: var(--primary); 
-  color: white !important; 
-  padding: 8px 20px; 
+.add-btn {
+  background: var(--primary);
+  color: white !important;
+  padding: 8px 20px;
   border-radius: 50px;
-  border: 1px solid rgba(255,255,255,0.1); /* Subtle border for class */
+  border: 1px solid rgba(255,255,255,0.1);
 }
 
-/* CHANGED: Mobile Menu Icon to White */
-.menu-toggle { 
-  display: none; 
-  font-size: 1.5rem; 
-  color: white; 
-  cursor: pointer; 
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
 }
 
-/* Mobile Menu Dropdown Background Fix */
 @media (max-width: 900px) {
   .menu-toggle { display: block; }
-  
-  .nav-links { 
-    display: none; 
-    position: absolute; 
-    top: 100%; left: 0; width: 100%; 
-    background: var(--accent); /* Keeps the dark mobile menu background */
-    flex-direction: column; 
-    padding: 1.5rem; 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%; left: 0; width: 100%;
+    background: var(--accent);
+    flex-direction: column;
+    padding: 1.5rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   }
-  
+
   .nav-links.active { display: flex; }
-  
-  .nav-links a { 
-    color: rgb(255, 153, 0); 
+
+  .nav-links a {
+    color: rgb(255, 153, 0);
     padding: 12px 0;
     border-bottom: 1px solid rgba(255,255,255,0.05);
     width: 100%;
     text-align: center;
-    transition: 0.3s ease; /* Makes the color change smooth */
+    transition: 0.3s ease;
   }
 
-  /* 1. Turns standard links orange when tapped/hovered */
-  .nav-links a:hover {
-    color: var(--primary); 
-  }
+  .nav-links a:hover { color: var(--primary); }
 
-  /* 2. Styles the main button with the solid orange theme */
-  .add-btn { 
-    width: 100%; 
-    text-align: center; 
-    margin-top: 15px; 
-    background: var(--primary); /* Orange background */
-    color: white !important; /* Forces text to stay white inside the button */
+  .add-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    background: var(--primary);
+    color: white !important;
     border: none;
-    border-radius: 20px; /* Gives it a modern pill shape */
+    border-radius: 20px;
     padding: 10px 0;
     font-weight: 600;
     transition: 0.3s ease;
   }
 
-  /* 3. Button hover effect */
   .add-btn:hover {
-    box-shadow: 0 4px 10px rgb(255, 140, 0); /* Soft orange glow */
-    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 10px rgb(255, 140, 0);
+    transform: translateY(-2px);
   }
 }
 
 /* ===== HERO SECTION ===== */
 .hero {
-  min-height: 70vh;
+  min-height: 60vh;
   background: #ffffff;
-  padding: 2rem 5%;
+  padding: 3rem 5%;
   display: flex; align-items: center; justify-content: center;
   position: relative; overflow: hidden;
 }
@@ -194,7 +178,6 @@ body {
 
 .hero p { font-size: 1.05rem; color: #666; margin-bottom: 30px; line-height: 1.6; }
 
-/* --- HERO SEARCH BAR STYLES --- */
 .search-hero-box {
   display: flex;
   background: white;
@@ -223,129 +206,118 @@ body {
 }
 .search-btn:hover { background: var(--primary-dark); transform: rotate(-10deg); }
 
-/* Float Card Styles */
-.hero-visuals { flex: 1; position: relative; height: 400px; }
+/* Hero visual: floating stat cards */
+.hero-visuals { flex: 1; position: relative; height: 380px; }
 
 .float-card {
   position: absolute; background: white; padding: 12px 18px;
   border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.08);
   display: flex; align-items: center; gap: 15px; color: #333;
-  width: 220px; border: 1px solid #f0f0f0;
-  cursor: pointer; animation: float 6s ease-in-out infinite;
+  width: 240px; border: 1px solid #f0f0f0;
+  animation: float 6s ease-in-out infinite;
   text-decoration: none; transition: transform 0.3s;
 }
 .float-card:hover { transform: scale(1.05); border-color: var(--primary); }
 
 .icon-box {
-  width: 40px; height: 40px; border-radius: 12px;
-  display: flex; align-items: center; justify-content: center; font-size: 1.1rem;
+  width: 44px; height: 44px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center; font-size: 1.2rem;
+  flex-shrink: 0;
 }
-.icon-shop { background: #e3f2fd; color: #1976d2; }
-.icon-food { background: #fff3e0; color: #f57c00; }
-.icon-auto { background: #fff8e1; color: #ffca28; }
+.icon-city { background: #e3f2fd; color: #1976d2; }
 .icon-temple { background: #fff3e0; color: #e65100; }
 .icon-street { background: #ffebee; color: #d84315; }
-.icon-market { background: #e8f5e9; color: #2e7d32; }
 
 .card-info strong { display: block; font-size: 0.95rem; }
 .card-info span { font-size: 0.75rem; color: #777; }
 
-.card-1 { top: 10%; right: 10%; animation-delay: 0s; }
-.card-2 { top: 40%; left: 10%; animation-delay: 2s; z-index: 2; }
-.card-3 { bottom: 10%; right: 5%; animation-delay: 4s; }
+.card-1 { top: 6%; right: 8%; animation-delay: 0s; }
+.card-2 { top: 42%; left: 6%; animation-delay: 2s; z-index: 2; }
+.card-3 { bottom: 6%; right: 12%; animation-delay: 4s; }
 
 @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
 
-/* ===== QUICK ACCESS ===== */
-.quick-access-container {
-  max-width: 1000px; margin: -40px auto 3rem auto;
-  padding: 0 15px; position: relative; z-index: 10;
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px;
+/* ===== SECTION HEADER ===== */
+.section-header { text-align: center; margin: 4rem 0 2rem 0; padding: 0 1rem; }
+.section-header h2 { font-family: 'Playfair Display', serif; font-size: 1.9rem; color: var(--accent); }
+.section-header p { color: #777; font-size: 0.95rem; margin-top: 6px; }
+.underline { width: 50px; height: 3px; background: var(--primary); margin: 10px auto; }
+
+/* ===== CITY GRID ===== */
+.city-grid {
+  max-width: 1100px; margin: 0 auto 3rem auto; padding: 0 20px;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 22px;
 }
 
-.quick-card {
-  background: white; padding: 1.2rem; text-align: center; border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-decoration: none; color: #333; transition: transform 0.3s;
-}
-.quick-card:hover { transform: translateY(-5px); color: var(--primary); }
-.quick-card i { font-size: 1.6rem; color: var(--primary); margin-bottom: 8px; display: block; }
-.quick-card h3 { font-size: 0.9rem; font-weight: 600; margin: 0; }
-
-/* ===== SECTION HEADER & PREVIEWS ===== */
-.section-header { text-align: center; margin: 3rem 0 2rem 0; padding: 0 1rem; }
-.section-header h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent); }
-.underline { width: 50px; height: 3px; background: var(--primary); margin: 8px auto; }
-
-.preview-container {
-  max-width: 900px; margin: 0 auto 4rem auto; padding: 0 15px;
-  display: flex; flex-direction: column; gap: 20px;
-}
-
-.preview-card {
+.city-card {
   background: white; border-radius: var(--radius); overflow: hidden;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.05); display: flex; align-items: center; border: 1px solid #eee;
-  opacity: 0; transform: translateY(30px); transition: all 0.6s ease-out;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.06); text-decoration: none; color: #333;
+  border: 1px solid #eee; transition: all 0.3s ease; display: block;
 }
-.preview-card.visible { opacity: 1; transform: translateY(0); }
+.city-card:hover { transform: translateY(-6px); box-shadow: 0 15px 35px rgba(0,0,0,0.1); border-color: var(--primary); }
 
-.preview-img-box { width: 40%; height: 200px; }
-.preview-img-box img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
-.preview-card:hover .preview-img-box img { transform: scale(1.05); }
-
-.preview-content { width: 60%; padding: 1.5rem; }
-.preview-content h3 { font-size: 1.2rem; margin-bottom: 8px; color: var(--accent); }
-.preview-content p { font-size: 0.9rem; color: #666; margin-bottom: 15px; line-height: 1.5; }
-
-.btn-small {
-  display: inline-block; background: var(--accent); color: white; padding: 8px 20px;
-  border-radius: 50px; text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: 0.3s;
+.city-img-box { width: 100%; height: 180px; overflow: hidden; position: relative; }
+.city-img-box img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+.tier-badge {
+  position: absolute; top: 10px; left: 10px; z-index: 2;
+  background: rgba(255, 153, 51, 0.95); color: #fff;
+  font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+  padding: 4px 10px; border-radius: 50px;
 }
-.btn-small:hover { background: var(--primary); }
+.city-card:hover .city-img-box img { transform: scale(1.05); }
 
-.preview-card:nth-child(even) { flex-direction: row-reverse; }
+.city-body { padding: 1.3rem 1.4rem 1.4rem; }
+.city-body h3 { font-size: 1.25rem; color: var(--accent); margin-bottom: 4px; }
+.city-region { font-size: 0.78rem; color: var(--primary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+.city-body p { font-size: 0.88rem; color: #666; margin: 8px 0 14px; line-height: 1.5; }
 
-/* ===== BUSINESS STATUS BADGE ===== */
-.time-row { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-size: 0.85rem; }
-.status-badge { padding: 4px 10px; border-radius: 4px; font-weight: 700; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.5px; }
-.status-badge.open { background-color: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
-.status-badge.closed { background-color: #ffebee; color: #c62828; border: 1px solid #ffcdd2; }
-.time-text { color: #555; font-weight: 500; display: flex; align-items: center; gap: 5px; }
-
-/* ===== FLOATING ANNOUNCEMENT ===== */
-.announcement-wrapper {
-  position: fixed; bottom: 25px; right: 25px; z-index: 2000;
-  display: flex; flex-direction: column; align-items: flex-end;
+.city-stats { display: flex; gap: 10px; }
+.stat-chip {
+  background: #f4f6f8; border-radius: 50px; padding: 6px 12px;
+  font-size: 0.75rem; color: #555; font-weight: 600;
 }
-.btn-bell {
-  width: 60px; height: 60px; background: var(--primary); color: white;
-  border: none; border-radius: 50%; font-size: 1.5rem;
-  box-shadow: 0 5px 20px rgba(255, 153, 51, 0.4); cursor: pointer;
-  position: relative; transition: transform 0.3s; animation: pulse-bell 2s infinite; 
+.stat-chip i { color: var(--primary); margin-right: 5px; }
+
+.city-empty { grid-column: 1 / -1; text-align: center; color: #999; padding: 3rem 0; }
+.city-empty.hidden { display: none; }
+
+/* ===== TIER FILTER ===== */
+.tier-filter {
+  max-width: 1100px; margin: 0 auto 1.8rem auto; padding: 0 20px;
+  display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;
 }
-.btn-bell:hover { transform: scale(1.1); }
-
-.notification-dot { position: absolute; top: 15px; right: 18px; width: 12px; height: 12px; background: red; border: 2px solid white; border-radius: 50%; }
-
-.notice-board {
-  background: white; width: 300px; border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15); margin-bottom: 15px;
-  overflow: hidden; border: 1px solid #eee;
-  opacity: 0; transform: translateY(20px); pointer-events: none; 
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-  position: absolute; bottom: 70px; right: 0;
+.tier-chip {
+  border: 1.5px solid #e0e0e0; background: white; color: #555;
+  border-radius: 50px; padding: 9px 18px; font-size: 0.82rem; font-weight: 600;
+  cursor: pointer; transition: all 0.25s ease; font-family: 'Poppins', sans-serif;
 }
-.notice-board.active { opacity: 1; transform: translateY(0); pointer-events: auto; }
+.tier-chip:hover { border-color: var(--primary); color: var(--primary); transform: translateY(-2px); }
+.tier-chip.active {
+  background: var(--primary); border-color: var(--primary); color: white;
+  box-shadow: 0 6px 16px rgba(255, 153, 51, 0.3);
+}
 
-.notice-header { background: var(--primary); color: white; padding: 12px 15px; display: flex; justify-content: space-between; align-items: center; }
-.close-notice { font-size: 1.5rem; cursor: pointer; line-height: 1; }
-.notice-content { padding: 15px; font-size: 0.9rem; }
-.update-item { margin-bottom: 15px; border-bottom: 1px solid #f0f0f0; padding-bottom: 10px; }
-.update-item:last-child { border: none; margin: 0; padding: 0; }
-.tag-alert { background: #ffebee; color: #d32f2f; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: bold; margin-right: 5px; }
-.tag-info { background: #e3f2fd; color: #1976d2; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: bold; margin-right: 5px; }
-@keyframes pulse-bell { 0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 153, 51, 0.7); } 70% { transform: scale(1); box-shadow: 0 0 0 15px rgba(255, 153, 51, 0); } 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 153, 51, 0); } }
+.district-link { text-align: center; padding: 0 20px 2rem; color: #777; font-size: 0.92rem; }
+.district-link a { color: var(--primary); font-weight: 600; text-decoration: none; }
+.district-link a:hover { text-decoration: underline; }
 
-/* ===== PREMIUM FOOTER CSS ===== */
+/* ===== CTA BANNER ===== */
+.cta-banner {
+  max-width: 1100px; margin: 0 auto 4rem auto; padding: 0 20px;
+}
+.cta-card {
+  background: var(--accent); color: white; border-radius: var(--radius);
+  padding: 2.5rem; display: flex; align-items: center; justify-content: space-between; gap: 2rem;
+}
+.cta-card h3 { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 6px; }
+.cta-card p { color: #bdc3c7; font-size: 0.92rem; line-height: 1.5; }
+.cta-btn {
+  background: var(--primary); color: white; text-decoration: none;
+  padding: 12px 26px; border-radius: 50px; font-weight: 600; white-space: nowrap; transition: 0.3s;
+}
+.cta-btn:hover { background: var(--primary-dark); transform: translateY(-2px); }
+
+/* ===== PREMIUM FOOTER ===== */
 .premium-footer { position: relative; background-color: #1a1a1a; color: #fff; margin-top: 100px; }
 .footer-content { padding: 0 5% 2rem 5%; position: relative; z-index: 5; margin-top: -40px; }
 .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.2fr; gap: 3rem; padding-bottom: 3rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
@@ -369,34 +341,25 @@ body {
 /* ===== MOBILE RESPONSIVE ===== */
 @media (max-width: 900px) {
   .menu-toggle { display: block; }
-  .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; flex-direction: column; padding: 1.5rem; box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+  .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: var(--accent); flex-direction: column; padding: 1.5rem; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
   .nav-links.active { display: flex; }
   .add-btn { width: 100%; text-align: center; }
 
-  /* Hero */
   .hero { padding: 2.5rem 1.5rem; text-align: center; }
   .hero-container { flex-direction: column; gap: 1.5rem; }
   .hero-visuals { width: 100%; height: auto; display: flex; flex-direction: row; justify-content: center; gap: 10px; margin-top: 1rem; }
-  
-  /* FIXED FLOAT CARD ALIGNMENT */
-  .float-card { 
+
+  .float-card {
     position: relative; top: auto !important; right: auto !important; left: auto !important; bottom: auto !important;
-    width: auto; padding: 8px 16px; border-radius: 50px; 
+    width: auto; padding: 8px 16px; border-radius: 50px;
   }
   .icon-box { width: 28px; height: 28px; font-size: 0.9rem; }
   .card-info span { display: none; }
   .card-info strong { font-size: 0.85rem; }
 
-  /* Quick Access */
-  .quick-access-container { grid-template-columns: 1fr 1fr; margin-top: 0; padding-top: 2rem; }
+  .city-grid { grid-template-columns: 1fr; }
+  .cta-card { flex-direction: column; text-align: center; gap: 15px; }
 
-  /* Previews */
-  .preview-card, .preview-card:nth-child(even) { flex-direction: column; }
-  .preview-img-box { width: 100%; height: 160px; }
-  .preview-content { width: 100%; text-align: center; }
-  .time-row { justify-content: center; }
-
-  /* Footer */
   .footer-grid { grid-template-columns: 1fr; text-align: center; gap: 2.5rem; }
   .f-socials { justify-content: center; }
   .contact-row { justify-content: center; text-align: left; }
@@ -412,47 +375,18 @@ body {
 
 <div class="ticker-wrap">
   <div class="ticker-move">
-    🙏 <strong>Welcome to Shravanabelagola</strong> — the town of Bahubali &nbsp;|&nbsp; 🛕 Explore ancient temples &amp; basadis &nbsp;|&nbsp; 🍲 Taste local street food &nbsp;|&nbsp; 🛍️ Discover markets &amp; trusted shops &nbsp;|&nbsp; 🚌 Find transport &amp; services &nbsp;|&nbsp; 📞 Contact any business directly
+    🙏 <strong>Welcome to Vihara</strong> — every town, one guide &nbsp;|&nbsp; 🛕 Temples, food, markets &amp; more &nbsp;|&nbsp; 📞 Call or WhatsApp any business directly &nbsp;|&nbsp; 🏙️ New towns added regularly
   </div>
-</div>
-
-<div class="announcement-wrapper">
-  <div class="notice-board" id="cityNotice">
-    <div class="notice-header">
-      <h4>📢 Town Updates</h4>
-      <span class="close-notice" onclick="toggleNotice()">&times;</span>
-    </div>
-    <div class="notice-content">
-      <div class="update-item">
-        <span class="tag-info">New</span>
-        <p><strong>Notice 📌:</strong> Outdated or incorrect details? Please report them via Raise an Issue so we can update them immediately! Help us keep our town directory accurate.</p>
-      </div>
-      <div class="update-item">
-        <span class="tag-info">New</span>
-        <p><strong>Temples & Basadis added 🛕</strong> Browse timings, darshan info and directions for the town's heritage sites.</p>
-      </div>
-      <div class="update-item">
-        <span class="tag-alert" style="background:#e8f5e9; color:#2e7d32;">Local</span>
-        <p><strong>Own a shop or service?</strong> Get listed for free so visitors can find and contact you.</p>
-      </div>
-    </div>
-  </div>
-  <button class="btn-bell" onclick="toggleNotice()">
-    <i class="fas fa-bullhorn"></i>
-    <span class="notification-dot"></span>
-  </button>
 </div>
 
 <header class="site-header">
   <a href="index.html" class="logo-container">
-    <img src="images/logo/V1_trim.png" class="logo-icon" alt="Vihara icon">
-    <img src="images/logo/V2_trim.png" class="logo-wordmark" alt="Vihara">
+    <img src="cities/shravanabelagola/images/logo/V1_trim.png" class="logo-icon" alt="Vihara icon">
+    <img src="cities/shravanabelagola/images/logo/V2_trim.png" class="logo-wordmark" alt="Vihara">
   </a>
   <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
   <nav class="nav-links" id="mobileNav">
     <a href="index.html">Home</a>
-    <a href="more_categories.html">Categories</a>
-    <a href="gallery.html">Gallery</a>
     <a href="aboutus.html">About</a>
     <a href="add_button.html" class="add-btn">+ Add Place</a>
   </nav>
@@ -461,16 +395,15 @@ body {
 <section class="hero">
   <div class="hero-container">
     <div class="hero-text">
-      <span class="pill">Namma Shravanabelagola</span>
-      <h1>Discover Everything in <br> <span class="highlight">Our Town</span></h1>
-      <p>Temples, street food, markets, shops and services — explore what Shravanabelagola offers and contact any business directly.</p>
+      <span class="pill">Every Town, One Vihara</span>
+      <h1>Discover Every<br> <span class="highlight">Town in India</span></h1>
+      <p>Temples, street food, markets, shops and services — pick a town and explore what it offers. Call, WhatsApp or navigate to any business directly.</p>
 
       <div class="search-hero-box">
-        <input type="text" id="searchInput" class="search-input"
-             placeholder="Try 'Temple', 'Street Food', or 'Shops'..."
-             onkeypress="handleEnter(event)">
-
-        <button class="search-btn" onclick="performSearch()">
+        <input type="text" id="citySearchInput" class="search-input"
+             placeholder="Search for a town, e.g. Shravanabelagola..."
+             onkeyup="filterCities(event)">
+        <button class="search-btn" onclick="filterCities()">
           <i class="fas fa-search"></i>
         </button>
       </div>
@@ -478,91 +411,54 @@ body {
     </div>
 
     <div class="hero-visuals">
-      <a href="categories/temples/temples.html" class="float-card card-1">
+      <div class="float-card card-1">
+        <div class="icon-box icon-city"><i class="fas fa-city"></i></div>
+        <div class="card-info"><strong>Multiple Towns</strong><span>One directory</span></div>
+      </div>
+
+      <a href="cities/shravanabelagola/categories/temples/temples.html" class="float-card card-2">
         <div class="icon-box icon-temple"><i class="fas fa-gopuram"></i></div>
         <div class="card-info"><strong>Temples</strong><span>Heritage</span></div>
       </a>
 
-      <a href="categories/street_food/street_food.html" class="float-card card-2">
+      <a href="cities/shravanabelagola/categories/food/food.html" class="float-card card-3">
         <div class="icon-box icon-street"><i class="fas fa-bowl-food"></i></div>
         <div class="card-info"><strong>Street Food</strong><span>Local Taste</span></div>
-      </a>
-
-      <a href="categories/markets/markets.html" class="float-card card-3">
-        <div class="icon-box icon-market"><i class="fas fa-basket-shopping"></i></div>
-        <div class="card-info"><strong>Markets</strong><span>Shop Local</span></div>
       </a>
     </div>
   </div>
 </section>
 
-<div class="quick-access-container">
-  <a href="categories/temples/temples.html" class="quick-card">
-    <i class="fas fa-gopuram"></i><h3>Temples</h3>
-  </a>
-  <a href="categories/retail_shops/retail_shops.html" class="quick-card">
-    <i class="fas fa-store"></i><h3>Shops</h3>
-  </a>
-  <a href="categories/food/food.html" class="quick-card">
-    <i class="fas fa-utensils"></i><h3>Food</h3>
-  </a>
-  <a href="more_categories.html" class="quick-card">
-    <i class="fas fa-th-large"></i><h3>All Categories</h3>
-  </a>
-</div>
-
-<div class="section-header" id="preview-section">
-  <h2>Experience Local Life</h2>
+<div class="section-header" id="cities-section">
+  <h2>Explore a Town</h2>
+  <p>Every town in the Vihara directory, growing every week.</p>
   <div class="underline"></div>
 </div>
 
-<div class="preview-container">
+<div class="tier-filter" id="tierFilter">
+  <button class="tier-chip active" data-tier="" onclick="filterByTier(this)">All</button>
+  <button class="tier-chip" data-tier="1" onclick="filterByTier(this)">Tier 1 · Town Centres</button>
+  <button class="tier-chip" data-tier="2" onclick="filterByTier(this)">Tier 2 · Heritage &amp; Tourism</button>
+  <button class="tier-chip" data-tier="3" onclick="filterByTier(this)">Tier 3 · Regional Trade</button>
+  <button class="tier-chip" data-tier="4" onclick="filterByTier(this)">Tier 4 · Micro Markets</button>
+</div>
 
-  <div class="preview-card">
-    <div class="preview-img-box">
-      <img src="images/bhandara_basadhi.jpg" alt="Temples">
+<div class="city-grid" id="cityGrid">
+  <div class="city-empty">Loading towns...</div>
+</div>
+
+<div class="district-link" id="districtLink" style="display:none;">
+  <p>View all towns in <a id="districtHref" href="karnataka/hassan/">Hassan District</a></p>
+</div>
+
+<div class="cta-banner">
+  <div class="cta-card">
+    <div>
+      <h3>Own a shop, service or eatery?</h3>
+      <p>Get listed for free so visitors and locals can find and contact you directly.</p>
     </div>
-    <div class="preview-content">
-      <h3>Temples & Heritage</h3>
-      <div class="time-row">
-        <span class="status-badge open" id="status-temples">Open Now</span>
-        <span class="time-text"><i class="far fa-clock"></i> 6:00 AM - 6:00 PM</span>
-      </div>
-      <p>Walk through centuries of history. Explore the ancient basadis, the Bahubali statue and sacred sites with timings and directions.</p>
-      <a href="categories/temples/temples.html" class="btn-small">Explore Temples</a>
-    </div>
+    <a href="add_button.html" class="cta-btn">Add Your Place</a>
   </div>
-
-  <div class="preview-card">
-    <div class="preview-img-box">
-      <img src="images/explorica/retail_shops/durga.jpg" alt="Markets & Shops">
-    </div>
-    <div class="preview-content">
-      <h3>Markets & Local Shops</h3>
-      <div class="time-row">
-        <span class="status-badge open" id="status-shops">Open Now</span>
-        <span class="time-text"><i class="far fa-clock"></i> 9:00 AM - 9:00 PM</span>
-      </div>
-      <p>Support local businesses! Find everything from fresh produce to provision and general stores — and call or message them directly.</p>
-      <a href="categories/retail_shops/retail_shops.html" class="btn-small">Browse Shops</a>
-    </div>
-  </div>
-
-  <div class="preview-card">
-    <div class="preview-img-box">
-      <img src="images/raghu_hotel.jpg" alt="Food">
-    </div>
-    <div class="preview-content">
-      <h3>Authentic Tastes</h3>
-      <div class="time-row">
-        <span class="status-badge open" id="status-food">Open Now</span>
-        <span class="time-text"><i class="far fa-clock"></i> 7:00 AM - 10:30 PM</span>
-      </div>
-      <p>Craving a crispy Masala Dosa? Find the town's best messes, restaurants and street-food stalls, with locations and contacts.</p>
-      <a href="categories/food/food.html" class="btn-small">Find Food</a>
-    </div>
-  </div>
-
 </div>
 
 <footer class="premium-footer">
@@ -570,7 +466,7 @@ body {
     <div class="footer-grid">
       <div class="f-col brand-col">
         <h2 class="f-logo">Vihara</h2>
-        <p>Connecting the divine heritage of Shravanabelagola with the digital future.</p>
+        <p>Connecting the heart of every Indian town with the digital future.</p>
         <div class="f-socials">
           <a href="https://www.instagram.com/v.__i__c__k__.y/"><i class="fab fa-instagram"></i></a>
           <a href="https://www.linkedin.com/in/vikas-gm-viewprofile/"><i class="fab fa-linkedin-in"></i></a>
@@ -580,11 +476,10 @@ body {
         <h4>Discover</h4>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="categories/temples/temples.html">Temples</a></li>
-          <li><a href="categories/retail_shops/retail_shops.html">Shops & Markets</a></li>
-          <li><a href="categories/food/food.html">Food & Dining</a></li>
-          <li><a href="gallery.html">Town Gallery</a></li>
-          <li><a href="more_categories.html">All Categories</a></li>
+          <li><a href="cities/shravanabelagola/categories/temples/temples.html">Temples</a></li>
+          <li><a href="cities/shravanabelagola/categories/food/food.html">Food & Dining</a></li>
+          <li><a href="cities/shravanabelagola/categories/stays/stays.html">Stays</a></li>
+          <li><a href="aboutus.html">About</a></li>
         </ul>
       </div>
       <div class="f-col">
@@ -598,8 +493,7 @@ body {
       <div class="f-col">
         <h4>Reach Us</h4>
         <ul style="list-style: none; padding: 0;">
-          <li><div class="contact-row"><i class="fas fa-map-marker-alt"></i><span>Vihara,<br> Shravanabelagola</span></div></li>
-          <li><a href="tel:+91 8073542692" class="contact-row"><i class="fas fa-phone-alt"></i><span>-</span></a></li>
+          <li><div class="contact-row"><i class="fas fa-map-marker-alt"></i><span>Vihara,<br> Karnataka, India</span></div></li>
           <li><a href="mailto:hello@vihara.com" class="contact-row"><i class="fas fa-envelope"></i><span>hello@vihara.com</span></a></li>
         </ul>
       </div>
@@ -610,165 +504,124 @@ body {
   </div>
 </footer>
 
-<script src="js/live-status.js"></script>
 <script>
-  // 1. Mobile Menu Logic
   function toggleMenu() { document.getElementById('mobileNav').classList.toggle('active'); }
 
-  // 2. Toggle Announcement
-  function toggleNotice() { document.getElementById('cityNotice').classList.toggle('active'); }
-
-  // 3. Main Page Logic
-  document.addEventListener("DOMContentLoaded", function() {
-    
-    // Scroll Animation
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.preview-card').forEach(card => { observer.observe(card); });
-
-    // Next Bus Logic
-    function updateNextBus() {
-      const busTimeElement = document.getElementById('bus-time');
-      if (!busTimeElement) return;
-      const busSchedule = [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0];
-      const now = new Date();
-      const currentHour = now.getHours();
-      const currentMinute = now.getMinutes();
-      const currentTimeDecimal = currentHour + (currentMinute / 60);
-      let nextBus = busSchedule.find(time => time > currentTimeDecimal);
-      if (!nextBus) nextBus = busSchedule[0]; 
-      const hours24 = Math.floor(nextBus);
-      const minutes = (nextBus - hours24) * 60;
-      const suffix = hours24 >= 12 ? "PM" : "AM";
-      let hours12 = hours24 % 12;
-      if (hours12 === 0) hours12 = 12; 
-      const minutesStr = minutes === 0 ? "00" : minutes;
-      busTimeElement.innerText = `${hours12}:${minutesStr} ${suffix}`;
+  // FALLBACK — used only if cities.json fails to load.
+  var FALLBACK_CITIES = [
+    {
+      slug: "shravanabelagola",
+      name: "Shravanabelagola",
+      region: "Karnataka",
+      state: "karnataka",
+      district: "hassan",
+      tier: 2,
+      tagline: "The town of Bahubali — ancient basadis, street food and trusted local shops.",
+      image: "cities/shravanabelagola/images/explorica/temples/vindhyagiri_hill.jpeg",
+      placesCount: 84,
+      categoriesCount: 15
     }
-    updateNextBus();
-    setInterval(updateNextBus, 60000);
+  ];
 
-    // Business Status Logic — driven by the same helper the category pages use,
-    // so the badge matches the timing shown on the card (minute-accurate).
-    function updateBusinessStatus() {
-      const cards = [
-        { id: 'status-temples', timings: '6:00 AM - 6:00 PM' },
-        { id: 'status-shops',   timings: '9:00 AM - 9:00 PM' },
-        { id: 'status-food',    timings: '7:00 AM - 10:30 PM' }
-      ];
-      cards.forEach(c => {
-        const badge = document.getElementById(c.id);
-        if (!badge) return;
-        let isOpen = true;
-        if (window.VihStatus) {
-          const res = VihStatus.evaluate(c.timings);
-          if (res) isOpen = res.open;
-        }
-        badge.className = 'status-badge ' + (isOpen ? 'open' : 'closed');
-        badge.innerText = isOpen ? 'Open Now' : 'Closed';
-      });
-    }
-    updateBusinessStatus();
-    setInterval(updateBusinessStatus, 60000);
-  });
+  function renderCities(cities) {
+    var grid = document.getElementById('cityGrid');
+    if (!grid) return;
+    grid.innerHTML = '';
 
-  // ==========================================
-  //  VIHARA SMART SEARCH ENGINE
-  // ==========================================
-  
-  function performSearch() {
-    const query = document.getElementById('searchInput').value.toLowerCase().trim();
-
-    if (!query) {
-      alert("Please type something to search!");
+    if (!cities || !cities.length) {
+      grid.innerHTML = '<div class="city-empty">No towns added yet. Check back soon!</div>';
       return;
     }
 
-    // Route search terms to the matching town section
-    const pages = [
-      {
-        url: "categories/temples/temples.html",
-        keywords: ["temple", "basadi", "basadhi", "gomateshwara", "bahubali", "darshan", "pooja", "jain", "heritage", "spiritual", "hill", "statue"]
-      },
-      {
-        url: "categories/street_food/street_food.html",
-        keywords: ["street", "chaat", "snack", "pani puri", "gobi", "bhaji", "stall", "chat"]
-      },
-      {
-        url: "categories/food/food.html",
-        keywords: ["food", "dosa", "idli", "coffee", "breakfast", "dinner", "hotel", "eat", "hungry", "meals", "mess", "restaurant", "tiffin", "lunch"]
-      },
-      {
-        url: "categories/bakeries/bakeries.html",
-        keywords: ["bakery", "cake", "sweet", "bread", "bun", "biscuit"]
-      },
-      {
-        url: "categories/markets/markets.html",
-        keywords: ["market", "vegetable", "fruit", "flower", "vendor", "santhe", "produce"]
-      },
-      {
-        url: "categories/retail_shops/retail_shops.html",
-        keywords: ["shop", "gift", "buy", "clothes", "store", "souvenir", "shopping", "grocery", "provision", "general"]
-      },
-      {
-        url: "categories/transport/transport.html",
-        keywords: ["transport", "bus", "auto", "cab", "taxi", "rickshaw", "travel", "ride", "route"]
-      },
-      {
-        url: "categories/stays/stays.html",
-        keywords: ["stay", "lodge", "hotel room", "room", "guest house", "dharmashala", "accommodation"]
-      },
-      {
-        url: "categories/healthcare/healthcare.html",
-        keywords: ["hospital", "clinic", "medical", "medicine", "doctor", "pharmacy", "health"]
-      },
-      {
-        url: "categories/services/services.html",
-        keywords: ["service", "plumber", "electrician", "carpenter", "repair", "mechanic"]
-      },
-      {
-        url: "map.html",
-        keywords: ["map", "direction", "location", "way", "navigate"]
-      },
-      {
-        url: "aboutus.html",
-        keywords: ["about", "contact", "help", "vihara", "founder", "story"]
+    cities.forEach(function (city) {
+      var card = document.createElement('a');
+      card.className = 'city-card';
+      card.setAttribute('data-tier', city.tier || '');
+      card.href = city.district && city.state
+        ? city.state + '/' + city.district + '/' + city.slug + '/'
+        : 'cities/' + city.slug + '/';
+      var badge = '';
+      if (city.tier) {
+        badge = '<span class="tier-badge">Tier ' + city.tier + '</span>';
       }
-    ];
+      card.innerHTML =
+        '<div class="city-img-box">' +
+          '<img src="' + (city.image || '') + '" alt="' + city.name + '" loading="lazy" onerror="this.src=\'https://via.placeholder.com/600x300?text=' + encodeURIComponent(city.name) + '\'">' +
+          badge +
+        '</div>' +
+        '<div class="city-body">' +
+          '<span class="city-region">' + (city.region || '') + (city.district ? ' &middot; ' + city.district.charAt(0).toUpperCase() + city.district.slice(1) : '') + '</span>' +
+          '<h3>' + city.name + '</h3>' +
+          '<p>' + (city.tagline || '') + '</p>' +
+          '<div class="city-stats">' +
+            '<span class="stat-chip"><i class="fas fa-store"></i>' + (city.placesCount || 0) + ' places</span>' +
+            '<span class="stat-chip"><i class="fas fa-th-large"></i>' + (city.categoriesCount || 0) + ' categories</span>' +
+          '</div>' +
+        '</div>';
+      grid.appendChild(card);
+    });
+  }
 
-    let found = false;
-    for (let page of pages) {
-      for (let word of page.keywords) {
-        if (query.includes(word)) {
-          window.location.href = page.url;
-          found = true;
-          return;
+  var activeTier = '';
+  function filterByTier(btn) {
+    activeTier = btn ? btn.getAttribute('data-tier') : '';
+    var chips = document.querySelectorAll('#tierFilter .tier-chip');
+    chips.forEach(function (c) {
+      c.classList.toggle('active', c === btn);
+    });
+    applyFilters();
+  }
+
+  function applyFilters() {
+    var q = document.getElementById('citySearchInput').value.toLowerCase().trim();
+    var cards = document.querySelectorAll('#cityGrid .city-card');
+    var visible = 0;
+    cards.forEach(function (card) {
+      var nameMatch = card.querySelector('h3').textContent.toLowerCase().indexOf(q) !== -1 ||
+                      (card.querySelector('.city-region') && card.querySelector('.city-region').textContent.toLowerCase().indexOf(q) !== -1);
+      var tierMatch = !activeTier || card.getAttribute('data-tier') === activeTier;
+      var match = nameMatch && tierMatch;
+      card.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+    var empty = document.querySelector('#cityGrid .city-empty');
+    if (empty) empty.classList.toggle('hidden', visible !== 0);
+
+    // District shortcut — derive state/district from the first geo-linked card.
+    var link = document.getElementById('districtLink');
+    if (link) {
+      var firstGeo = document.querySelector('#cityGrid .city-card[href*="/"]');
+      if (firstGeo) {
+        var parts = firstGeo.getAttribute('href').split('/');
+        var state = parts[0], district = parts[1];
+        if (state && district) {
+          var dl = document.getElementById('districtHref');
+          dl.href = state + '/' + district + '/';
+          dl.textContent = district.charAt(0).toUpperCase() + district.slice(1) + ' District';
+          link.style.display = 'block';
+        } else {
+          link.style.display = 'none';
         }
+      } else {
+        link.style.display = 'none';
       }
     }
-
-    if (!found) {
-      // Fall back to the full category directory
-      window.location.href = "more_categories.html";
-    }
   }
 
-  function handleEnter(event) {
-    if (event.key === "Enter") {
-      performSearch();
-    }
+  function filterCities() {
+    applyFilters();
   }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    fetch('cities.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('Not found');
+        return res.json();
+      })
+      .then(renderCities)
+      .catch(function () { renderCities(FALLBACK_CITIES); });
+  });
 </script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-

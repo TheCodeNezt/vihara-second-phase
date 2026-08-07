@@ -1,0 +1,18 @@
+{
+  "slug": "shravanabelagola",
+  "name": "Shravanabelagola",
+  "region": "Karnataka",
+  "tagline": "The town of Bahubali — ancient basadis, street food and trusted local shops.",
+  "fetchedAt": "2026-01-01T00:00:00.000Z",
+  "state": "karnataka",
+  "district": "hassan",
+  "tier": 2,
+  "focus": "Bahubali pilgrimage and heritage basadis",
+  "primaryCategories": [
+    "temples",
+    "street_food",
+    "stays",
+    "food",
+    "retail_shops"
+  ]
+}

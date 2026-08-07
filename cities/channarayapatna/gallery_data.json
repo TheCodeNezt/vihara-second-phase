@@ -1,0 +1,207 @@
+[
+  {
+    "src": "./images/temples/1.jpg",
+    "cat": "temples",
+    "desc": "Sri Chandramouleshwara Temple"
+  },
+  {
+    "src": "./images/temples/2.jpg",
+    "cat": "temples",
+    "desc": "Shree Anjaneya Temple"
+  },
+  {
+    "src": "./images/temples/3.jpg",
+    "cat": "temples",
+    "desc": "Shree Shani Mahatma Temple"
+  },
+  {
+    "src": "./images/street_food/1.jpg",
+    "cat": "street_food",
+    "desc": "ಯಮ್ಮಿ ಕಿಚನ್ / Yummy Kitchen"
+  },
+  {
+    "src": "./images/street_food/2.jpg",
+    "cat": "street_food",
+    "desc": "ARASI ADUGE MANE"
+  },
+  {
+    "src": "./images/street_food/3.jpg",
+    "cat": "street_food",
+    "desc": "Brudhavana Grand Family Restaurant"
+  },
+  {
+    "src": "./images/food/1.jpg",
+    "cat": "food",
+    "desc": "Hoysala Cafe"
+  },
+  {
+    "src": "./images/food/2.jpg",
+    "cat": "food",
+    "desc": "Udupi Vaibhava Pure Veg"
+  },
+  {
+    "src": "./images/food/3.jpg",
+    "cat": "food",
+    "desc": "CITY MERIDIAN"
+  },
+  {
+    "src": "./images/bakeries/1.jpg",
+    "cat": "bakeries",
+    "desc": "Suresh Bakery & Sweets"
+  },
+  {
+    "src": "./images/bakeries/2.jpg",
+    "cat": "bakeries",
+    "desc": "Sri Lakshmi Venkateshwara Bakery (Shekaranna bakery)"
+  },
+  {
+    "src": "./images/markets/1.jpg",
+    "cat": "markets",
+    "desc": "Goat and Sheep Market"
+  },
+  {
+    "src": "./images/markets/2.jpg",
+    "cat": "markets",
+    "desc": "Market(ಸಂತೇ)"
+  },
+  {
+    "src": "./images/markets/3.jpg",
+    "cat": "markets",
+    "desc": "Reliance SMART Bazaar"
+  },
+  {
+    "src": "./images/retail_shops/1.jpg",
+    "cat": "retail_shops",
+    "desc": "Surabhi Stores"
+  },
+  {
+    "src": "./images/retail_shops/2.jpg",
+    "cat": "retail_shops",
+    "desc": "Pens paradise"
+  },
+  {
+    "src": "./images/retail_shops/3.jpg",
+    "cat": "retail_shops",
+    "desc": "MedPlus B M Road Channaraypatna"
+  },
+  {
+    "src": "./images/transport/1.jpg",
+    "cat": "transport",
+    "desc": "KSRTC Ticket Booking Centre Channarayapatna"
+  },
+  {
+    "src": "./images/transport/2.jpg",
+    "cat": "transport",
+    "desc": "Channarayapattana"
+  },
+  {
+    "src": "./images/transport/3.jpg",
+    "cat": "transport",
+    "desc": "Tanvi Travels"
+  },
+  {
+    "src": "./images/stays/1.jpg",
+    "cat": "stays",
+    "desc": "Aadya Comforts"
+  },
+  {
+    "src": "./images/stays/2.jpg",
+    "cat": "stays",
+    "desc": "OYO Sharan Residency"
+  },
+  {
+    "src": "./images/stays/3.jpg",
+    "cat": "stays",
+    "desc": "OYO 28184 BMR Residency"
+  },
+  {
+    "src": "./images/healthcare/1.jpg",
+    "cat": "healthcare",
+    "desc": "Nagesh Hospital"
+  },
+  {
+    "src": "./images/healthcare/2.jpg",
+    "cat": "healthcare",
+    "desc": "Dr sandeep GRASS LIFE HOSPITAL"
+  },
+  {
+    "src": "./images/healthcare/3.jpg",
+    "cat": "healthcare",
+    "desc": "Vinayaka Sparsha Hospital"
+  },
+  {
+    "src": "./images/services/1.jpg",
+    "cat": "services",
+    "desc": "Sharada Electricals"
+  },
+  {
+    "src": "./images/services/2.jpg",
+    "cat": "services",
+    "desc": "DNN electric’s"
+  },
+  {
+    "src": "./images/services/3.jpg",
+    "cat": "services",
+    "desc": "Sri Maruthi Electronics Land"
+  },
+  {
+    "src": "./images/education/1.jpg",
+    "cat": "education",
+    "desc": "Poornachandra Public School"
+  },
+  {
+    "src": "./images/education/2.jpg",
+    "cat": "education",
+    "desc": "Jnanasagara International Public School"
+  },
+  {
+    "src": "./images/education/3.jpg",
+    "cat": "education",
+    "desc": "Sri Vivekananda International School ICSE"
+  },
+  {
+    "src": "./images/fitness/1.jpg",
+    "cat": "fitness",
+    "desc": "RK Fitness"
+  },
+  {
+    "src": "./images/fitness/2.jpg",
+    "cat": "fitness",
+    "desc": "Fit and Fine Gym"
+  },
+  {
+    "src": "./images/fitness/3.jpg",
+    "cat": "fitness",
+    "desc": "Komal Fitness"
+  },
+  {
+    "src": "./images/travels/2.jpg",
+    "cat": "travels",
+    "desc": "Kiran tour and travels"
+  },
+  {
+    "src": "./images/nature/1.jpg",
+    "cat": "nature",
+    "desc": "Park"
+  },
+  {
+    "src": "./images/nature/2.jpg",
+    "cat": "nature",
+    "desc": "Shiva Park"
+  },
+  {
+    "src": "./images/bars/1.jpg",
+    "cat": "bars",
+    "desc": "S.DOT MRP AND PUB (mrp&pub rooftop)"
+  },
+  {
+    "src": "./images/bars/2.jpg",
+    "cat": "bars",
+    "desc": "Kadamba Tonique and Wines"
+  },
+  {
+    "src": "./images/bars/3.jpg",
+    "cat": "bars",
+    "desc": "New Amruth MRP Bar"
+  }
+]

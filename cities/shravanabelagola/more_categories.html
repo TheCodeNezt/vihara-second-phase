@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQZYVV8CS1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQZYVV8CS1');
+</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Explore Categories | Vihara</title>
+  <meta name="description" content="Browse everything in Shravanabelagola by category — temples, street food, markets, shops, transport, stays, healthcare and more.">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    /* ---------- BUSINESS THEME VARIABLES ---------- */
+    :root {
+      --brand: #FF9933; /* Saffron/Orange */
+      --brand-dark: #cc7000;
+      --dark: #1a1a1a;
+      --gray: #666666;
+      --border: #e0e0e0;
+      --bg: #f4f6f8;
+      --white: #ffffff;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+    body {
+      font-family: 'Inter', sans-serif; /* Cleaner, tech-focused font */
+      background-color: var(--bg);
+      color: var(--dark);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ---------- UTILITY HEADER ---------- */
+    header {
+      background: var(--white);
+      padding: 1rem 5%;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      color: var(--brand);
+      font-weight: 700;
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+
+    .close-btn {
+      text-decoration: none;
+      color: var(--dark);
+      background: #f0f0f0;
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem;
+      transition: 0.2s;
+    }
+    .close-btn:hover { background: #e0e0e0; }
+
+    /* ---------- SEARCH BAR ---------- */
+    .utility-bar {
+      background: var(--white);
+      padding: 1rem 5%;
+      margin-bottom: 1rem;
+    }
+
+    .search-wrapper {
+      position: relative;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 12px 15px 12px 45px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-family: 'Inter', sans-serif;
+      outline: none;
+      background: #f9f9f9;
+      color: var(--dark);
+      transition: 0.2s;
+    }
+
+    .search-input:focus {
+      background: var(--white);
+      border-color: var(--brand);
+      box-shadow: 0 0 0 3px rgba(255, 153, 51, 0.1);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #999;
+    }
+
+    /* ---------- DASHBOARD GRID ---------- */
+    .grid-container {
+      max-width: 1000px;
+      margin: 0 auto 2rem;
+      padding: 0 15px;
+      display: grid;
+      /* Dense grid for business efficiency */
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); 
+      gap: 12px;
+    }
+
+    /* ---------- APP ICON CARD ---------- */
+    .app-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.2rem 1rem;
+      text-align: center;
+      text-decoration: none;
+      color: var(--dark);
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+    }
+
+    .app-card:hover {
+      border-color: var(--brand);
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    /* The "App Icon" Look */
+    .icon-square {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px; /* Soft square like iOS icons */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 5px;
+    }
+
+    /* Category Colors - Flat & Professional */
+    .bg-orange { background: #fff3e0; color: #e65100; }
+    .bg-blue   { background: #e3f2fd; color: #1565c0; }
+    .bg-green  { background: #e8f5e9; color: #2e7d32; }
+    .bg-purple { background: #f3e5f5; color: #7b1fa2; }
+    .bg-red    { background: #ffebee; color: #c62828; }
+    .bg-teal   { background: #e0f2f1; color: #00695c; }
+    .bg-yellow { background: #fffde7; color: #f9a825; }
+    .bg-gray   { background: #eceff1; color: #455a64; }
+
+    .app-card h3 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin: 0;
+      color: var(--dark);
+    }
+
+    .app-card span {
+      font-size: 0.75rem;
+      color: var(--gray);
+      display: block;
+      margin-top: 2px;
+    }
+
+    .hidden { display: none; }
+
+    /* ---------- B2B BANNER ---------- */
+    .b2b-section {
+      max-width: 1000px;
+      margin: 1rem auto 3rem;
+      padding: 0 15px;
+    }
+    
+    .b2b-card {
+      background: var(--dark);
+      color: white;
+      border-radius: var(--radius);
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-image: linear-gradient(45deg, #1a1a1a 0%, #333 100%);
+    }
+
+    .b2b-content h4 { font-size: 1.2rem; margin-bottom: 5px; }
+    .b2b-content p { font-size: 0.9rem; color: #aaa; margin: 0; }
+
+    .b2b-btn {
+      background: var(--brand);
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      white-space: nowrap;
+      margin-left: 20px;
+    }
+
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid var(--border);
+      color: var(--gray);
+      font-size: 0.8rem;
+      background: var(--white);
+    }
+
+    /* ---------- MOBILE ---------- */
+    @media (max-width: 600px) {
+      .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 Columns fixed */
+        gap: 10px;
+      }
+      .app-card { padding: 1rem 0.5rem; }
+      .b2b-card { flex-direction: column; text-align: center; gap: 15px; }
+      .b2b-btn { margin-left: 0; width: 100%; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html" class="brand">Vihara</a>
+    <a href="index.html" class="close-btn" onclick="if(history.length>1){history.back();return false;}"><i class="fas fa-times"></i></a>
+  </header>
+
+  <div class="utility-bar">
+    <div class="search-wrapper">
+      <i class="fas fa-search search-icon"></i>
+      <input type="text" id="filterInput" class="search-input" placeholder="Search categories (e.g. Temple, Food, Bus)...">
+    </div>
+  </div>
+
+  <div class="grid-container" id="grid">
+
+    <a href="categories/temples/temples.html" class="app-card">
+      <div class="icon-square bg-orange"><i class="fas fa-gopuram"></i></div>
+      <h3>Temples</h3>
+      <span>Heritage & Basadis</span>
+    </a>
+
+    <a href="categories/street_food/street_food.html" class="app-card">
+      <div class="icon-square bg-red"><i class="fas fa-bowl-food"></i></div>
+      <h3>Street Food</h3>
+      <span>Local Snacks</span>
+    </a>
+
+    <a href="categories/food/food.html" class="app-card">
+      <div class="icon-square bg-orange"><i class="fas fa-utensils"></i></div>
+      <h3>Food & Dining</h3>
+      <span>Messes & Hotels</span>
+    </a>
+
+    <a href="categories/bakeries/bakeries.html" class="app-card">
+      <div class="icon-square bg-yellow"><i class="fas fa-cake-candles"></i></div>
+      <h3>Bakeries</h3>
+      <span>Cakes & Snacks</span>
+    </a>
+
+    <a href="categories/markets/markets.html" class="app-card">
+      <div class="icon-square bg-green"><i class="fas fa-basket-shopping"></i></div>
+      <h3>Markets</h3>
+      <span>Vegetables & More</span>
+    </a>
+
+    <a href="categories/retail_shops/retail_shops.html" class="app-card">
+      <div class="icon-square bg-blue"><i class="fas fa-store"></i></div>
+      <h3>Retail Shops</h3>
+      <span>Daily Groceries</span>
+    </a>
+
+    <a href="categories/transport/transport.html" class="app-card">
+      <div class="icon-square bg-teal"><i class="fas fa-bus"></i></div>
+      <h3>Transport</h3>
+      <span>Bus, Auto & Cabs</span>
+    </a>
+
+    <a href="categories/stays/stays.html" class="app-card">
+      <div class="icon-square bg-teal"><i class="fas fa-bed"></i></div>
+      <h3>Stays</h3>
+      <span>Lodges & Rooms</span>
+    </a>
+
+    <a href="categories/healthcare/healthcare.html" class="app-card">
+      <div class="icon-square bg-red"><i class="fas fa-heart-pulse"></i></div>
+      <h3>Healthcare</h3>
+      <span>Clinics & Meds</span>
+    </a>
+
+    <a href="categories/services/services.html" class="app-card">
+      <div class="icon-square bg-gray"><i class="fas fa-briefcase"></i></div>
+      <h3>Services</h3>
+      <span>Repairs & More</span>
+    </a>
+
+    <a href="categories/education/education.html" class="app-card">
+      <div class="icon-square bg-blue"><i class="fas fa-graduation-cap"></i></div>
+      <h3>Education</h3>
+      <span>Schools & Tuitions</span>
+    </a>
+
+    <a href="categories/fitness/fitness.html" class="app-card">
+      <div class="icon-square bg-green"><i class="fas fa-dumbbell"></i></div>
+      <h3>Fitness</h3>
+      <span>Gym & Yoga</span>
+    </a>
+
+    <a href="categories/travels/travels.html" class="app-card">
+      <div class="icon-square bg-blue"><i class="fas fa-map-marked-alt"></i></div>
+      <h3>Travels</h3>
+      <span>Tour Operators</span>
+    </a>
+
+    <a href="categories/nature/nature.html" class="app-card">
+      <div class="icon-square bg-green"><i class="fas fa-tree"></i></div>
+      <h3>Nature</h3>
+      <span>Parks & Views</span>
+    </a>
+
+    <a href="categories/bars/bars.html" class="app-card">
+      <div class="icon-square bg-purple"><i class="fas fa-wine-glass"></i></div>
+      <h3>Bars</h3>
+      <span>Drinks & Lounges</span>
+    </a>
+
+  </div>
+
+  <div class="b2b-section">
+    <div class="b2b-card">
+      <div class="b2b-content">
+        <h4>Own a shop, service or eatery?</h4>
+        <p>Get listed for free so visitors and locals can find and contact you.</p>
+      </div>
+      <a href="../../add_button.html" class="b2b-btn">Add Your Place</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Vihara · Namma Shravanabelagola</p>
+  </footer>
+
+  <script>
+    // --- Instant Search Filter ---
+    const filterInput = document.getElementById('filterInput');
+    const cards = document.querySelectorAll('.app-card');
+
+    filterInput.addEventListener('keyup', (e) => {
+      const text = e.target.value.toLowerCase();
+      cards.forEach(card => {
+        const title = card.querySelector('h3').textContent.toLowerCase();
+        // Also search the subtitle (span)
+        const sub = card.querySelector('span').textContent.toLowerCase();
+        
+        if(title.includes(text) || sub.includes(text)) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+[
+  {
+    "id": "edu1",
+    "name": "BCE College",
+    "type": "Engineering & Degree College",
+    "image": "../../images/explorica/schools_and_colleges/bce_college.jpeg",
+    "location": "Rachenahalli Road",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/GXXe39y1ZV58bM5r7",
+    "status": "Admissions Open",
+    "statusColor": "#3f51b5",
+    "timings": "9:00 AM - 4:30 PM",
+    "description": "Premier technical institution offering undergraduate programs in engineering and computer applications with excellent campus and lab facilities."
+  },
+  {
+    "id": "edu2",
+    "name": "Government Girls School",
+    "type": "Girls High School",
+    "image": "../../images/explorica/schools_and_colleges/govt_girls_school.jpeg",
+    "location": "Behind Post Office, Town Center",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/1a29KhugEsxhp1hZ7s",
+    "status": "Classes On",
+    "statusColor": "#27ae60",
+    "timings": "9:30 AM - 4:00 PM",
+    "description": "State-run educational institution dedicated to empowering young women through quality secondary education and extracurricular activities."
+  },
+  {
+    "id": "edu3",
+    "name": "Government PU College",
+    "type": "Pre-University College",
+    "image": "../../images/explorica/schools_and_colleges/govt_pu_college.jpeg",
+    "location": "Town Center",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/5fAp2ftq1SfKpqjGA",
+    "status": "Admissions Open",
+    "statusColor": "#e67e22",
+    "timings": "9:00 AM - 4:30 PM",
+    "description": "Providing quality pre-university education in Science, Arts, and Commerce streams to prepare students for higher academic pursuits."
+  },
+  {
+    "id": "edu4",
+    "name": "Government School",
+    "type": "Primary & High School",
+    "image": "../../images/explorica/schools_and_colleges/govt_school.jpeg",
+    "location": "Near Bus Stand",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/5fAp2ftq1SfKpqjGA",
+    "status": "Classes On",
+    "statusColor": "#27ae60",
+    "timings": "9:30 AM - 3:30 PM",
+    "description": "Local government school focusing on foundational education, regional medium instruction, and holistic student development."
+  },
+  {
+    "id": "edu5",
+    "name": "Guideline International School",
+    "type": "International School",
+    "image": "../../images/explorica/schools_and_colleges/guideline_international_school.jpeg",
+    "location": "Rachenahalli Road",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/CEuYRuYsrxqBo2mV7",
+    "status": "Enrollment Open",
+    "statusColor": "#9b59b6",
+    "timings": "8:30 AM - 3:00 PM",
+    "description": "Modern international school offering a global curriculum, smart classrooms, and extensive sports facilities for comprehensive child growth."
+  },
+  {
+    "id": "edu6",
+    "name": "SNPU College",
+    "type": "Private Pre-University College",
+    "image": "../../images/explorica/schools_and_colleges/snpu_college.jpeg",
+    "location": "BCE College Road",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/rEQHG4R2yoHbfpLt9",
+    "status": "Classes On",
+    "statusColor": "#2980b9",
+    "timings": "9:00 AM - 5:00 PM",
+    "description": "Reputed private PU college known for excellent academic results, dedicated faculty, and specialized coaching for competitive exams."
+  }
+]

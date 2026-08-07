@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQZYVV8CS1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQZYVV8CS1');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Vihara | Explore Shravanabelagola</title>
+<meta name="description" content="Vihara is your complete guide to Shravanabelagola — discover temples, street food, markets, shops, transport and local services. Find any business and contact the owner directly.">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+/* ===== VARIABLES & RESET ===== */
+:root {
+  --primary: #FF9933; /* Saffron */
+  --primary-dark: #D35400;
+  --accent: #2c3e50;
+  --glass: rgba(255, 255, 255, 0.98);
+  --bg-light: #f8f9fa;
+  --radius: 16px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; scroll-behavior: smooth; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-light);
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* ===== TICKER ===== */
+/* ===== TICKER (Midnight: Sleek & Subtle) ===== */
+.ticker-wrap {
+  background: #1a252f; /* Darker than header */
+  color: #bdc3c7; /* Light grey text for better readability */
+  font-size: 0.85rem; 
+  padding: 8px 0; 
+  overflow: hidden; 
+  white-space: nowrap;
+  position: relative; 
+  z-index: 1001;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.ticker-move { display: inline-block; animation: ticker 25s linear infinite; padding-left: 100%; }
+@keyframes ticker { 0% { transform: translate3d(0, 0, 0); } 100% { transform: translate3d(-100%, 0, 0); } }
+
+/* ===== HEADER ===== */
+/* ===== HEADER (UPDATED: Premium Dark Theme) ===== */
+.site-header {
+  position: sticky; top: 0; z-index: 1000;
+  
+  /* CHANGED: White -> Dark Accent Color */
+  background: var(--accent); 
+  
+  padding: 0.8rem 5%;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15); /* Slightly darker shadow */
+  display: flex; justify-content: space-between; align-items: center;
+}
+
+/* Logo lockup: icon + wordmark shown side by side on a white badge */
+.logo-container { display: inline-flex; align-items: center; gap: 9px; height: 48px; padding: 6px 14px; background: #ffffff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.18); text-decoration: none; }
+.logo-icon { height: 34px; width: auto; display: block; }
+.logo-wordmark { height: 22px; width: auto; display: block; }
+
+.nav-links { display: flex; align-items: center; gap: 20px; }
+
+/* CHANGED: Text color from Dark to White */
+.nav-links a { 
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.9); /* Soft White */
+  font-weight: 500; 
+  font-size: 0.95rem; 
+  transition: 0.3s; 
+}
+
+/* CHANGED: Hover color to Saffron to match logo */
+.nav-links a:hover { 
+  color: var(--primary); 
+  opacity: 1;
+}
+
+/* Add Button Style update */
+.add-btn { 
+  background: var(--primary); 
+  color: white !important; 
+  padding: 8px 20px; 
+  border-radius: 50px;
+  border: 1px solid rgba(255,255,255,0.1); /* Subtle border for class */
+}
+
+/* CHANGED: Mobile Menu Icon to White */
+.menu-toggle { 
+  display: none; 
+  font-size: 1.5rem; 
+  color: white; 
+  cursor: pointer; 
+}
+
+/* Mobile Menu Dropdown Background Fix */
+@media (max-width: 900px) {
+  .menu-toggle { display: block; }
+  
+  .nav-links { 
+    display: none; 
+    position: absolute; 
+    top: 100%; left: 0; width: 100%; 
+    background: var(--accent); /* Keeps the dark mobile menu background */
+    flex-direction: column; 
+    padding: 1.5rem; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+  }
+  
+  .nav-links.active { display: flex; }
+  
+  .nav-links a { 
+    color: rgb(255, 153, 0); 
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s ease; /* Makes the color change smooth */
+  }
+
+  /* 1. Turns standard links orange when tapped/hovered */
+  .nav-links a:hover {
+    color: var(--primary); 
+  }
+
+  /* 2. Styles the main button with the solid orange theme */
+  .add-btn { 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 15px; 
+    background: var(--primary); /* Orange background */
+    color: white !important; /* Forces text to stay white inside the button */
+    border: none;
+    border-radius: 20px; /* Gives it a modern pill shape */
+    padding: 10px 0;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+
+  /* 3. Button hover effect */
+  .add-btn:hover {
+    box-shadow: 0 4px 10px rgb(255, 140, 0); /* Soft orange glow */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  min-height: 70vh;
+  background: #ffffff;
+  padding: 2rem 5%;
+  display: flex; align-items: center; justify-content: center;
+  position: relative; overflow: hidden;
+}
+
+.hero-container {
+  width: 100%; max-width: 1200px;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 4rem; z-index: 1;
+}
+
+.hero-text { flex: 1; max-width: 550px; }
+
+.pill {
+  display: inline-block; background: #fff3e0; color: var(--primary);
+  padding: 6px 14px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;
+  text-transform: uppercase; margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 3.2rem;
+  color: var(--accent); line-height: 1.15; margin-bottom: 20px;
+}
+
+.highlight { color: var(--primary); position: relative; }
+.highlight::after {
+  content: ''; position: absolute; bottom: 5px; left: 0; width: 100%; height: 8px;
+  background: rgba(255, 200, 50, 0.2); z-index: -1; border-radius: 4px;
+}
+
+.hero p { font-size: 1.05rem; color: #666; margin-bottom: 30px; line-height: 1.6; }
+
+/* --- HERO SEARCH BAR STYLES --- */
+.search-hero-box {
+  display: flex;
+  background: white;
+  border: 2px solid #f0f0f0;
+  border-radius: 50px;
+  padding: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  max-width: 400px;
+  transition: 0.3s;
+}
+.search-hero-box:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 10px 25px rgba(255, 153, 51, 0.2);
+}
+
+.search-input {
+  border: none; outline: none; padding: 0 20px;
+  font-size: 1rem; flex: 1; color: #555; background: transparent;
+}
+
+.search-btn {
+  background: var(--primary); color: white;
+  width: 48px; height: 48px; border-radius: 50%; border: none; cursor: pointer;
+  font-size: 1.1rem; transition: 0.3s;
+  display: flex; align-items: center; justify-content: center;
+}
+.search-btn:hover { background: var(--primary-dark); transform: rotate(-10deg); }
+
+/* Float Card Styles */
+.hero-visuals { flex: 1; position: relative; height: 400px; }
+
+.float-card {
+  position: absolute; background: white; padding: 12px 18px;
+  border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  display: flex; align-items: center; gap: 15px; color: #333;
+  width: 220px; border: 1px solid #f0f0f0;
+  cursor: pointer; animation: float 6s ease-in-out infinite;
+  text-decoration: none; transition: transform 0.3s;
+}
+.float-card:hover { transform: scale(1.05); border-color: var(--primary); }
+
+.icon-box {
+  width: 40px; height: 40px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center; font-size: 1.1rem;
+}
+.icon-shop { background: #e3f2fd; color: #1976d2; }
+.icon-food { background: #fff3e0; color: #f57c00; }
+.icon-auto { background: #fff8e1; color: #ffca28; }
+.icon-temple { background: #fff3e0; color: #e65100; }
+.icon-street { background: #ffebee; color: #d84315; }
+.icon-market { background: #e8f5e9; color: #2e7d32; }
+
+.card-info strong { display: block; font-size: 0.95rem; }
+.card-info span { font-size: 0.75rem; color: #777; }
+
+.card-1 { top: 10%; right: 10%; animation-delay: 0s; }
+.card-2 { top: 40%; left: 10%; animation-delay: 2s; z-index: 2; }
+.card-3 { bottom: 10%; right: 5%; animation-delay: 4s; }
+
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+/* ===== QUICK ACCESS ===== */
+.quick-access-container {
+  max-width: 1000px; margin: -40px auto 3rem auto;
+  padding: 0 15px; position: relative; z-index: 10;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px;
+}
+
+.quick-card {
+  background: white; padding: 1.2rem; text-align: center; border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-decoration: none; color: #333; transition: transform 0.3s;
+}
+.quick-card:hover { transform: translateY(-5px); color: var(--primary); }
+.quick-card i { font-size: 1.6rem; color: var(--primary); margin-bottom: 8px; display: block; }
+.quick-card h3 { font-size: 0.9rem; font-weight: 600; margin: 0; }
+
+/* ===== SECTION HEADER & PREVIEWS ===== */
+.section-header { text-align: center; margin: 3rem 0 2rem 0; padding: 0 1rem; }
+.section-header h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent); }
+.underline { width: 50px; height: 3px; background: var(--primary); margin: 8px auto; }
+
+.preview-container {
+  max-width: 900px; margin: 0 auto 4rem auto; padding: 0 15px;
+  display: flex; flex-direction: column; gap: 20px;
+}
+
+.preview-card {
+  background: white; border-radius: var(--radius); overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05); display: flex; align-items: center; border: 1px solid #eee;
+  opacity: 0; transform: translateY(30px); transition: all 0.6s ease-out;
+}
+.preview-card.visible { opacity: 1; transform: translateY(0); }
+
+.preview-img-box { width: 40%; height: 200px; }
+.preview-img-box img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+.preview-card:hover .preview-img-box img { transform: scale(1.05); }
+
+.preview-content { width: 60%; padding: 1.5rem; }
+.preview-content h3 { font-size: 1.2rem; margin-bottom: 8px; color: var(--accent); }
+.preview-content p { font-size: 0.9rem; color: #666; margin-bottom: 15px; line-height: 1.5; }
+
+.btn-small {
+  display: inline-block; background: var(--accent); color: white; padding: 8px 20px;
+  border-radius: 50px; text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: 0.3s;
+}
+.btn-small:hover { background: var(--primary); }
+
+.preview-card:nth-child(even) { flex-direction: row-reverse; }
+
+/* ===== BUSINESS STATUS BADGE ===== */
+.time-row { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-size: 0.85rem; }
+.status-badge { padding: 4px 10px; border-radius: 4px; font-weight: 700; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.5px; }
+.status-badge.open { background-color: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
+.status-badge.closed { background-color: #ffebee; color: #c62828; border: 1px solid #ffcdd2; }
+.time-text { color: #555; font-weight: 500; display: flex; align-items: center; gap: 5px; }
+
+/* ===== FLOATING ANNOUNCEMENT ===== */
+.announcement-wrapper {
+  position: fixed; bottom: 25px; right: 25px; z-index: 2000;
+  display: flex; flex-direction: column; align-items: flex-end;
+}
+.btn-bell {
+  width: 60px; height: 60px; background: var(--primary); color: white;
+  border: none; border-radius: 50%; font-size: 1.5rem;
+  box-shadow: 0 5px 20px rgba(255, 153, 51, 0.4); cursor: pointer;
+  position: relative; transition: transform 0.3s; animation: pulse-bell 2s infinite; 
+}
+.btn-bell:hover { transform: scale(1.1); }
+
+.notification-dot { position: absolute; top: 15px; right: 18px; width: 12px; height: 12px; background: red; border: 2px solid white; border-radius: 50%; }
+
+.notice-board {
+  background: white; width: 300px; border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15); margin-bottom: 15px;
+  overflow: hidden; border: 1px solid #eee;
+  opacity: 0; transform: translateY(20px); pointer-events: none; 
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  position: absolute; bottom: 70px; right: 0;
+}
+.notice-board.active { opacity: 1; transform: translateY(0); pointer-events: auto; }
+
+.notice-header { background: var(--primary); color: white; padding: 12px 15px; display: flex; justify-content: space-between; align-items: center; }
+.close-notice { font-size: 1.5rem; cursor: pointer; line-height: 1; }
+.notice-content { padding: 15px; font-size: 0.9rem; }
+.update-item { margin-bottom: 15px; border-bottom: 1px solid #f0f0f0; padding-bottom: 10px; }
+.update-item:last-child { border: none; margin: 0; padding: 0; }
+.tag-alert { background: #ffebee; color: #d32f2f; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: bold; margin-right: 5px; }
+.tag-info { background: #e3f2fd; color: #1976d2; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: bold; margin-right: 5px; }
+@keyframes pulse-bell { 0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 153, 51, 0.7); } 70% { transform: scale(1); box-shadow: 0 0 0 15px rgba(255, 153, 51, 0); } 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 153, 51, 0); } }
+
+/* ===== PREMIUM FOOTER CSS ===== */
+.premium-footer { position: relative; background-color: #1a1a1a; color: #fff; margin-top: 100px; }
+.footer-content { padding: 0 5% 2rem 5%; position: relative; z-index: 5; margin-top: -40px; }
+.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.2fr; gap: 3rem; padding-bottom: 3rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.f-logo { font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 1rem; background: linear-gradient(to right, #fff, #ffcc80); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.brand-col p { color: #a0a0a0; line-height: 1.6; margin-bottom: 1.5rem; }
+.f-socials { display: flex; gap: 15px; }
+.f-socials a { width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; transition: 0.3s; }
+.f-socials a:hover { background: var(--primary); transform: translateY(-3px); }
+.f-col h4 { font-size: 1.1rem; margin-bottom: 1.5rem; color: white; }
+.f-col ul { list-style: none; padding: 0; }
+.f-col ul li { margin-bottom: 12px; }
+.f-col ul li a { color: #a0a0a0; text-decoration: none; transition: 0.3s; }
+.f-col ul li a:hover { color: var(--primary); padding-left: 5px; }
+.footer-copyright { text-align: center; padding-top: 2rem; color: #777; font-size: 0.9rem; }
+.footer-copyright i { color: var(--primary); animation: beat 1s infinite; }
+@keyframes beat { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.2); } }
+.contact-row { display: flex; align-items: flex-start; gap: 15px; color: #a0a0a0; margin-bottom: 18px; text-decoration: none; transition: 0.3s; line-height: 1.6; }
+.contact-row i { color: var(--primary); font-size: 1.1rem; margin-top: 4px; }
+.contact-row:hover { color: var(--primary); }
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .menu-toggle { display: block; }
+  .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; flex-direction: column; padding: 1.5rem; box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+  .nav-links.active { display: flex; }
+  .add-btn { width: 100%; text-align: center; }
+
+  /* Hero */
+  .hero { padding: 2.5rem 1.5rem; text-align: center; }
+  .hero-container { flex-direction: column; gap: 1.5rem; }
+  .hero-visuals { width: 100%; height: auto; display: flex; flex-direction: row; justify-content: center; gap: 10px; margin-top: 1rem; }
+  
+  /* FIXED FLOAT CARD ALIGNMENT */
+  .float-card { 
+    position: relative; top: auto !important; right: auto !important; left: auto !important; bottom: auto !important;
+    width: auto; padding: 8px 16px; border-radius: 50px; 
+  }
+  .icon-box { width: 28px; height: 28px; font-size: 0.9rem; }
+  .card-info span { display: none; }
+  .card-info strong { font-size: 0.85rem; }
+
+  /* Quick Access */
+  .quick-access-container { grid-template-columns: 1fr 1fr; margin-top: 0; padding-top: 2rem; }
+
+  /* Previews */
+  .preview-card, .preview-card:nth-child(even) { flex-direction: column; }
+  .preview-img-box { width: 100%; height: 160px; }
+  .preview-content { width: 100%; text-align: center; }
+  .time-row { justify-content: center; }
+
+  /* Footer */
+  .footer-grid { grid-template-columns: 1fr; text-align: center; gap: 2.5rem; }
+  .f-socials { justify-content: center; }
+  .contact-row { justify-content: center; text-align: left; }
+}
+
+@media (max-width: 600px) {
+  .f-col h4 { margin-bottom: 1rem; color: var(--primary); }
+  .brand-col p { font-size: 0.9rem; }
+}
+</style>
+</head>
+<body>
+
+<div class="ticker-wrap">
+  <div class="ticker-move">
+    🙏 <strong>Welcome to Shravanabelagola</strong> — the town of Bahubali &nbsp;|&nbsp; 🛕 Explore ancient temples &amp; basadis &nbsp;|&nbsp; 🍲 Taste local street food &nbsp;|&nbsp; 🛍️ Discover markets &amp; trusted shops &nbsp;|&nbsp; 🚌 Find transport &amp; services &nbsp;|&nbsp; 📞 Contact any business directly
+  </div>
+</div>
+
+<div class="announcement-wrapper">
+  <div class="notice-board" id="cityNotice">
+    <div class="notice-header">
+      <h4>📢 Town Updates</h4>
+      <span class="close-notice" onclick="toggleNotice()">&times;</span>
+    </div>
+    <div class="notice-content">
+      <div class="update-item">
+        <span class="tag-info">New</span>
+        <p><strong>Notice 📌:</strong> Outdated or incorrect details? Please report them via Raise an Issue so we can update them immediately! Help us keep our town directory accurate.</p>
+      </div>
+      <div class="update-item">
+        <span class="tag-info">New</span>
+        <p><strong>Temples & Basadis added 🛕</strong> Browse timings, darshan info and directions for the town's heritage sites.</p>
+      </div>
+      <div class="update-item">
+        <span class="tag-alert" style="background:#e8f5e9; color:#2e7d32;">Local</span>
+        <p><strong>Own a shop or service?</strong> Get listed for free so visitors can find and contact you.</p>
+      </div>
+    </div>
+  </div>
+  <button class="btn-bell" onclick="toggleNotice()">
+    <i class="fas fa-bullhorn"></i>
+    <span class="notification-dot"></span>
+  </button>
+</div>
+
+<header class="site-header">
+  <a href="index.html" class="logo-container">
+    <img src="images/logo/V1_trim.png" class="logo-icon" alt="Vihara icon">
+    <img src="images/logo/V2_trim.png" class="logo-wordmark" alt="Vihara">
+  </a>
+  <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+  <nav class="nav-links" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="more_categories.html">Categories</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="../../aboutus.html">About</a>
+    <a href="../../add_button.html" class="add-btn">+ Add Place</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-text">
+      <span class="pill">Namma Shravanabelagola</span>
+      <h1>Discover Everything in <br> <span class="highlight">Our Town</span></h1>
+      <p>Temples, street food, markets, shops and services — explore what Shravanabelagola offers and contact any business directly.</p>
+
+      <div class="search-hero-box">
+        <input type="text" id="searchInput" class="search-input"
+             placeholder="Try 'Temple', 'Street Food', or 'Shops'..."
+             onkeypress="handleEnter(event)">
+
+        <button class="search-btn" onclick="performSearch()">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <div class="hero-visuals">
+      <a href="categories/temples/temples.html" class="float-card card-1">
+        <div class="icon-box icon-temple"><i class="fas fa-gopuram"></i></div>
+        <div class="card-info"><strong>Temples</strong><span>Heritage</span></div>
+      </a>
+
+      <a href="categories/street_food/street_food.html" class="float-card card-2">
+        <div class="icon-box icon-street"><i class="fas fa-bowl-food"></i></div>
+        <div class="card-info"><strong>Street Food</strong><span>Local Taste</span></div>
+      </a>
+
+      <a href="categories/markets/markets.html" class="float-card card-3">
+        <div class="icon-box icon-market"><i class="fas fa-basket-shopping"></i></div>
+        <div class="card-info"><strong>Markets</strong><span>Shop Local</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="quick-access-container">
+  <a href="categories/temples/temples.html" class="quick-card">
+    <i class="fas fa-gopuram"></i><h3>Temples</h3>
+  </a>
+  <a href="categories/retail_shops/retail_shops.html" class="quick-card">
+    <i class="fas fa-store"></i><h3>Shops</h3>
+  </a>
+  <a href="categories/food/food.html" class="quick-card">
+    <i class="fas fa-utensils"></i><h3>Food</h3>
+  </a>
+  <a href="more_categories.html" class="quick-card">
+    <i class="fas fa-th-large"></i><h3>All Categories</h3>
+  </a>
+</div>
+
+<div class="section-header" id="preview-section">
+  <h2>Experience Local Life</h2>
+  <div class="underline"></div>
+</div>
+
+<div class="preview-container">
+
+  <div class="preview-card">
+    <div class="preview-img-box">
+      <img src="images/bhandara_basadhi.jpg" alt="Temples">
+    </div>
+    <div class="preview-content">
+      <h3>Temples & Heritage</h3>
+      <div class="time-row">
+        <span class="status-badge open" id="status-temples">Open Now</span>
+        <span class="time-text"><i class="far fa-clock"></i> 6:00 AM - 6:00 PM</span>
+      </div>
+      <p>Walk through centuries of history. Explore the ancient basadis, the Bahubali statue and sacred sites with timings and directions.</p>
+      <a href="categories/temples/temples.html" class="btn-small">Explore Temples</a>
+    </div>
+  </div>
+
+  <div class="preview-card">
+    <div class="preview-img-box">
+      <img src="images/explorica/retail_shops/durga.jpg" alt="Markets & Shops">
+    </div>
+    <div class="preview-content">
+      <h3>Markets & Local Shops</h3>
+      <div class="time-row">
+        <span class="status-badge open" id="status-shops">Open Now</span>
+        <span class="time-text"><i class="far fa-clock"></i> 9:00 AM - 9:00 PM</span>
+      </div>
+      <p>Support local businesses! Find everything from fresh produce to provision and general stores — and call or message them directly.</p>
+      <a href="categories/retail_shops/retail_shops.html" class="btn-small">Browse Shops</a>
+    </div>
+  </div>
+
+  <div class="preview-card">
+    <div class="preview-img-box">
+      <img src="images/raghu_hotel.jpg" alt="Food">
+    </div>
+    <div class="preview-content">
+      <h3>Authentic Tastes</h3>
+      <div class="time-row">
+        <span class="status-badge open" id="status-food">Open Now</span>
+        <span class="time-text"><i class="far fa-clock"></i> 7:00 AM - 10:30 PM</span>
+      </div>
+      <p>Craving a crispy Masala Dosa? Find the town's best messes, restaurants and street-food stalls, with locations and contacts.</p>
+      <a href="categories/food/food.html" class="btn-small">Find Food</a>
+    </div>
+  </div>
+
+</div>
+
+<footer class="premium-footer">
+  <div class="footer-content">
+    <div class="footer-grid">
+      <div class="f-col brand-col">
+        <h2 class="f-logo">Vihara</h2>
+        <p>Connecting the divine heritage of Shravanabelagola with the digital future.</p>
+        <div class="f-socials">
+          <a href="https://www.instagram.com/v.__i__c__k__.y/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/vikas-gm-viewprofile/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="f-col">
+        <h4>Discover</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="categories/temples/temples.html">Temples</a></li>
+          <li><a href="categories/retail_shops/retail_shops.html">Shops & Markets</a></li>
+          <li><a href="categories/food/food.html">Food & Dining</a></li>
+          <li><a href="gallery.html">Town Gallery</a></li>
+          <li><a href="more_categories.html">All Categories</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="../../aboutus.html">Our Story</a></li>
+          <li><a href="../../privacy.html">Privacy</a></li>
+          <li><a href="../../add_button.html">Add Place</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Reach Us</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li><div class="contact-row"><i class="fas fa-map-marker-alt"></i><span>Vihara,<br> Shravanabelagola</span></div></li>
+          <li><a href="tel:+91 8073542692" class="contact-row"><i class="fas fa-phone-alt"></i><span>-</span></a></li>
+          <li><a href="mailto:hello@vihara.com" class="contact-row"><i class="fas fa-envelope"></i><span>hello@vihara.com</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; 2026 Vihara. Made with <i class="fas fa-heart"></i> in Karnataka.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/live-status.js"></script>
+<script>
+  // 1. Mobile Menu Logic
+  function toggleMenu() { document.getElementById('mobileNav').classList.toggle('active'); }
+
+  // 2. Toggle Announcement
+  function toggleNotice() { document.getElementById('cityNotice').classList.toggle('active'); }
+
+  // 3. Main Page Logic
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    // Scroll Animation
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.preview-card').forEach(card => { observer.observe(card); });
+
+    // Next Bus Logic
+    function updateNextBus() {
+      const busTimeElement = document.getElementById('bus-time');
+      if (!busTimeElement) return;
+      const busSchedule = [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0];
+      const now = new Date();
+      const currentHour = now.getHours();
+      const currentMinute = now.getMinutes();
+      const currentTimeDecimal = currentHour + (currentMinute / 60);
+      let nextBus = busSchedule.find(time => time > currentTimeDecimal);
+      if (!nextBus) nextBus = busSchedule[0]; 
+      const hours24 = Math.floor(nextBus);
+      const minutes = (nextBus - hours24) * 60;
+      const suffix = hours24 >= 12 ? "PM" : "AM";
+      let hours12 = hours24 % 12;
+      if (hours12 === 0) hours12 = 12; 
+      const minutesStr = minutes === 0 ? "00" : minutes;
+      busTimeElement.innerText = `${hours12}:${minutesStr} ${suffix}`;
+    }
+    updateNextBus();
+    setInterval(updateNextBus, 60000);
+
+    // Business Status Logic — driven by the same helper the category pages use,
+    // so the badge matches the timing shown on the card (minute-accurate).
+    function updateBusinessStatus() {
+      const cards = [
+        { id: 'status-temples', timings: '6:00 AM - 6:00 PM' },
+        { id: 'status-shops',   timings: '9:00 AM - 9:00 PM' },
+        { id: 'status-food',    timings: '7:00 AM - 10:30 PM' }
+      ];
+      cards.forEach(c => {
+        const badge = document.getElementById(c.id);
+        if (!badge) return;
+        let isOpen = true;
+        if (window.VihStatus) {
+          const res = VihStatus.evaluate(c.timings);
+          if (res) isOpen = res.open;
+        }
+        badge.className = 'status-badge ' + (isOpen ? 'open' : 'closed');
+        badge.innerText = isOpen ? 'Open Now' : 'Closed';
+      });
+    }
+    updateBusinessStatus();
+    setInterval(updateBusinessStatus, 60000);
+  });
+
+  // ==========================================
+  //  VIHARA SMART SEARCH ENGINE
+  // ==========================================
+  
+  function performSearch() {
+    const query = document.getElementById('searchInput').value.toLowerCase().trim();
+
+    if (!query) {
+      alert("Please type something to search!");
+      return;
+    }
+
+    // Route search terms to the matching town section
+    const pages = [
+      {
+        url: "categories/temples/temples.html",
+        keywords: ["temple", "basadi", "basadhi", "gomateshwara", "bahubali", "darshan", "pooja", "jain", "heritage", "spiritual", "hill", "statue"]
+      },
+      {
+        url: "categories/street_food/street_food.html",
+        keywords: ["street", "chaat", "snack", "pani puri", "gobi", "bhaji", "stall", "chat"]
+      },
+      {
+        url: "categories/food/food.html",
+        keywords: ["food", "dosa", "idli", "coffee", "breakfast", "dinner", "hotel", "eat", "hungry", "meals", "mess", "restaurant", "tiffin", "lunch"]
+      },
+      {
+        url: "categories/bakeries/bakeries.html",
+        keywords: ["bakery", "cake", "sweet", "bread", "bun", "biscuit"]
+      },
+      {
+        url: "categories/markets/markets.html",
+        keywords: ["market", "vegetable", "fruit", "flower", "vendor", "santhe", "produce"]
+      },
+      {
+        url: "categories/retail_shops/retail_shops.html",
+        keywords: ["shop", "gift", "buy", "clothes", "store", "souvenir", "shopping", "grocery", "provision", "general"]
+      },
+      {
+        url: "categories/transport/transport.html",
+        keywords: ["transport", "bus", "auto", "cab", "taxi", "rickshaw", "travel", "ride", "route"]
+      },
+      {
+        url: "categories/stays/stays.html",
+        keywords: ["stay", "lodge", "hotel room", "room", "guest house", "dharmashala", "accommodation"]
+      },
+      {
+        url: "categories/healthcare/healthcare.html",
+        keywords: ["hospital", "clinic", "medical", "medicine", "doctor", "pharmacy", "health"]
+      },
+      {
+        url: "categories/services/services.html",
+        keywords: ["service", "plumber", "electrician", "carpenter", "repair", "mechanic"]
+      },
+      {
+        url: "map.html",
+        keywords: ["map", "direction", "location", "way", "navigate"]
+      },
+      {
+        url: "aboutus.html",
+        keywords: ["about", "contact", "help", "vihara", "founder", "story"]
+      }
+    ];
+
+    let found = false;
+    for (let page of pages) {
+      for (let word of page.keywords) {
+        if (query.includes(word)) {
+          window.location.href = page.url;
+          found = true;
+          return;
+        }
+      }
+    }
+
+    if (!found) {
+      // Fall back to the full category directory
+      window.location.href = "more_categories.html";
+    }
+  }
+
+  function handleEnter(event) {
+    if (event.key === "Enter") {
+      performSearch();
+    }
+  }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

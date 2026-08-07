@@ -1,0 +1,47 @@
+[
+  {
+    "id": "spot1",
+    "name": "Vindhyagiri Hill",
+    "type": "Historical Hill",
+    "image": "../../images/nature/hill.jpg",
+    "location": "Main Temple Entrance",
+    "phone": "+919876543210",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=Sri+Manjunatha+Medicals+Shravanabelagola",
+    "status": "Open",
+    "statusColor": "#27ae60",
+    "timings": "6:00 AM - 6:00 PM",
+    "bestTime": "Early Morning (Sunrise)",
+    "difficulty": "Moderate • 650 Steps",
+    "description": "Home to the world's largest monolithic stone statue of Gomateshwara. A must-visit pilgrimage site offering a panoramic view of the town and lush green fields."
+  },
+  {
+    "id": "spot2",
+    "name": "Janivara Lake",
+    "type": "Scenic Lake",
+    "image": "../../images/nature/lake.jpg",
+    "location": "Outskirts, 3km from town",
+    "phone": "+919988776655",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=Government+Hospital+Shravanabelagola",
+    "status": "Scenic Spot",
+    "statusColor": "#2980b9",
+    "timings": "Open 24 Hours",
+    "bestTime": "Evening (Sunset)",
+    "difficulty": "Easy • Drive-in",
+    "description": "A peaceful lake perfect for evening walks and photography. The sunset view reflecting on the water is breathtaking. Ideal for picnics."
+  },
+  {
+    "id": "spot3",
+    "name": "Chandragiri Hill",
+    "type": "Heritage Site",
+    "image": "../../images/nature/park.jpg",
+    "location": "Opposite Vindhyagiri",
+    "phone": "+919123456789",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=Clinic+Shravanabelagola",
+    "status": "Historical",
+    "statusColor": "#e67e22",
+    "timings": "6:30 AM - 5:30 PM",
+    "bestTime": "Morning / Evening",
+    "difficulty": "Easy Climb • 200 Steps",
+    "description": "Smaller than the main hill but historically richer. Contains ancient basadis (temples) and inscriptions. Offers a great view of the main statue from a distance."
+  }
+]

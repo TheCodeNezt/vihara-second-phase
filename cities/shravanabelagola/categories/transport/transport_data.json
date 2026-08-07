@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tr1",
+    "name": "Shravanabelagola Bus Stand",
+    "type": "Government Bus Service",
+    "image": "../../images/explorica/service/shravanabelagola_bus_stand.jpeg",
+    "location": "Town Centre",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/p9mPYLeaMquAc1Sq5",
+    "status": "Running",
+    "statusColor": "#27ae60",
+    "timings": "5:30 AM - 09:00 PM",
+    "route": "Hassan · Channarayapatna · Bengaluru ",
+    "description": "The main town bus stand offering regular KSRTC services to major connecting cities like Hassan, Channarayapatna, and Bengaluru. Enquire at the local counter for precise departure times."
+  },
+  {
+    "id": "tr2",
+    "name": "Town Auto Rickshaw Stand",
+    "type": "Auto Stand",
+    "image": "../../images/explorica/transportation/auto_stand.jpeg",
+    "location": "Opposite Bus Stand",
+    "phone": "",
+    "mapLink": "https://maps.app.goo.gl/HpacQUKMGYzukvv57",
+    "status": "Available",
+    "statusColor": "#27ae60",
+    "timings": "6:00 AM - 9:00 PM",
+    "route": "Within town · Hill base · Nearby villages",
+    "description": "Shared and private auto rickshaws available for quick local trips within the town, navigating to the hill bases, and reaching nearby rural villages. Fares should be agreed upon before starting the ride."
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "slug": "channarayapatna",
+  "name": "Channarayapatna",
+  "region": "Karnataka",
+  "tagline": "Channarayapatna's shops, stays, food and services — discover everything in one place.",
+  "fetchedAt": "2026-08-07T03:24:36.607Z",
+  "center": {
+    "latitude": 12.903532199999999,
+    "longitude": 76.3897978
+  },
+  "state": "karnataka",
+  "district": "hassan",
+  "tier": 1,
+  "focus": "Commercial hub of southern Hassan",
+  "primaryCategories": [
+    "retail_shops",
+    "food",
+    "markets",
+    "services",
+    "fitness",
+    "education"
+  ]
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "shravanabelagola",
+    "name": "Shravanabelagola",
+    "region": "Karnataka",
+    "tagline": "The town of Bahubali — ancient basadis, street food and trusted local shops.",
+    "image": "cities/shravanabelagola/images/explorica/bakery/sri_ganapathi_bakery.jpg",
+    "placesCount": 84,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "hassan",
+    "tier": 2,
+    "focus": "Bahubali pilgrimage and heritage basadis",
+    "primaryCategories": [
+      "temples",
+      "street_food",
+      "stays",
+      "food",
+      "retail_shops"
+    ]
+  },
+  {
+    "slug": "channarayapatna",
+    "name": "Channarayapatna",
+    "region": "Karnataka",
+    "tagline": "Channarayapatna's shops, stays, food and services — discover everything in one place.",
+    "image": "cities/channarayapatna/images/bakeries/1.jpg",
+    "placesCount": 510,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "hassan",
+    "tier": 1,
+    "focus": "Commercial hub of southern Hassan",
+    "primaryCategories": [
+      "retail_shops",
+      "food",
+      "markets",
+      "services",
+      "fitness",
+      "education"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  { "src": "./images/explorica/janivara.jpeg", "cat": "nature", "desc": "Janivara Lake View" },
+  { "src": "./images/explorica/temples/bandara_basadi.jpeg", "cat": "temple", "desc": "Ancient Basadi" },
+  { "src": "./images/explorica/temples/chandragiri_hill.jpeg", "cat": "temple", "desc": "Chandragiri View" },
+  { "src": "./images/explorica/temples/nishidhi_mantapa.jpeg", "cat": "temple", "desc": "Charugiri View" },
+  { "src": "./images/explorica/hotel/hotel_abhishek.jpeg", "cat": "food", "desc": "Crispy Masala Dosa" },
+  { "src": "./images/explorica/hotel/hotel_paniraj.jpeg", "cat": "food", "desc": "South Indian Thali" },
+  { "src": "./images/explorica/bakery/sri_manjunatha_bakery.jpeg", "cat": "food", "desc": "Creamy Pastries" },
+  { "src": "./images/explorica/bakery/slv_bakery.jpeg", "cat": "food", "desc": "Fresh Bread" },
+  { "src": "./images/explorica/stays/yatri_nivas.jpeg", "cat": "stay", "desc": "Yatri Nivas View" },
+  { "src": "./images/explorica/stays/sdk_residancy.jpeg", "cat": "stay", "desc": "Budget Lodge" },
+  { "src": "./images/explorica/stays/town_guest_house.jpeg", "cat": "stay", "desc": "Guest House Room" },
+  { "src": "./images/explorica/bar/sri_vinayaka_bar.jpeg", "cat": "stay", "desc": "City Center Bar" },
+  { "src": "./images/explorica/retail_shops/sri_ram_stores.jpeg", "cat": "shop", "desc": "Retail Shop" },
+  { "src": "./images/explorica/service/bhojanalaya.jpeg", "cat": "shop", "desc": "Prasadham" },
+  { "src": "./images/explorica/transportation/kaveri_travels.jpeg", "cat": "shop", "desc": "Travel Services" }
+]

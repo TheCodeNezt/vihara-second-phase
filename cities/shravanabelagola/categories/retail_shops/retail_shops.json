@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "name": "Nethravathi General Store",
+    "category": "General Store",
+    "image": "../../images/explorica/retail_shops/nethravathi_stores.jpg",
+    "rating": 4.5,
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "phone": "+91 9481667035",
+    "description": "Your one-stop shop for daily essentials. We provide high-quality grains, oils, and household needs.",
+    "address": "Main Road, Shravanabelagola",
+    "mapUrl": "http://maps.google.com/?q=Nethravathi+General+Store+Shravanabelagola",
+    "products": [
+      { "name": "Organic Rice " },
+      { "name": "Sugar " },
+      { "name": "Sunflower Oil " },
+      { "name": "Mixed Spices Pack" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sri Veerabhadreshwara Traders",
+    "category": "Wholesale & Retail",
+    "image": "../../images/explorica/retail_shops/sri_veerabhadreshwara_traders.jpg",
+    "rating": 4.8,
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "phone": "+91 8746855415",
+    "description": "Essentials, elevated. A curated selection of home goods, pantry staples, and lifestyle products designed for modern living.",
+    "address": "B M Road, Shravanabelagola",
+    "mapUrl": "http://maps.google.com/?q=Sri+Veerabhadreshwara+Traders+Shravanabelagola",
+    "products": [
+      { "name": "Local Spices Pack" },
+      { "name": "Dry Fruits Mix " },
+      { "name": "Jaggery Cubes " },
+      { "name": "Filter Coffee Powder " }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sanjay Provision Store",
+    "category": "Provision Store",
+    "image": "../../images/explorica/retail_shops/sanjay_provision_store.jpg",
+    "rating": 4.2,
+    "openTime": "10:00",
+    "closeTime": "21:30",
+    "phone": "+91 9741979610",
+    "description": "Quality first, always. We stock the best brands and daily necessities in a streamlined, hassle-free shopping environment.",
+    "address": "B M Road, Shravanabelagola",
+    "mapUrl": "http://maps.google.com/?q=Sanjay+Provision+Store+Shravanabelagola",
+    "products": [
+      { "name": "Toor Dal " },
+      { "name": "Masala Powder Combo" },
+      { "name": "Assorted Snacks" },
+      { "name": "Dishwash Bar " }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Padmavathi Stores",
+    "category": "General Store",
+    "image": "../../images/explorica/retail_shops/padmavathi_stores.jpg",
+    "rating": 4.8,
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "description": "Simply better shopping. Find exactly what you need without the clutter—just high-quality products at fair prices.",
+    "address": "B M Road, Shravanabelagola",
+    "phone": "+91 9900995560",
+    "mapUrl": "http://maps.google.com/?q=Padmavathi+Stores+Shravanabelagola",
+    "products": [
+      { "name": "Wheat Flour / Atta " },
+      { "name": "Ragi Flour " },
+      { "name": "Cooking Oil " },
+      { "name": "Tea Powder " }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sri Ranganatha General Stores",
+    "category": "General Store",
+    "image": "../../images/explorica/retail_shops/sri_ranganatha_general_stores.jpg",
+    "rating": 4.8,
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "description": "Big brands, small prices. Your go-to destination for unbeatable deals on groceries, household items, and seasonal favorites.",
+    "address": "Near Bus Stand, Shravanabelagola",
+    "phone": "+91 9731671672",
+    "mapUrl": "http://maps.google.com/?q=Sri+Ranganatha+General+Stores+Shravanabelagola",
+    "products": [
+      { "name": "Sunflower Oil " },
+      { "name": "Glucose Biscuits" },
+      { "name": "Soft Drink " }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Balaji Bhandar",
+    "category": "Discount Store",
+    "image": "../../images/explorica/retail_shops/balaji_bhandar.jpg",
+    "rating": 4.8,
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "description": "Smart shopping starts here. We believe quality shouldn't cost a fortune, which is why we offer the best value on the items you use every day.",
+    "address": "Maruthi Circle, Shravanabelagola",
+    "phone": "+91 9483882133",
+    "mapUrl": "http://maps.google.com/?q=Balaji+Bhandar+Shravanabelagola",
+    "products": [
+      { "name": "Sugar " },
+      { "name": "Crystal Salt " },
+      { "name": "Bathing Soap" },
+      { "name": "Detergent Powder " }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sri Durga Stores",
+    "category": "Discount Store",
+    "image": "../../images/explorica/retail_shops/durga.jpg",
+    "rating": 4.8,
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "description": "Stretch your dollar further. From pantry fillers to cleaning supplies, get more for less every time you visit.",
+    "address": "Sreekantanagara, Shravanabelagola",
+    "phone": "+91 9481986935",
+    "mapUrl": "https://maps.app.goo.gl/PtSGXSv4cJTYQqq56",
+    "products": [
+      { "name": "Tea Powder (250g)" },
+      { "name": "Instant Noodles Pack" },
+      { "name": "Milk Biscuit Pack" },
+      { "name": "Shampoo Sachet " }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sri Ram Stores",
+    "category": "Discount Store",
+    "image": "../../images/explorica/retail_shops/sri_ram_stores.jpeg",
+    "rating": 4.8,
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "description": "Big brands, small prices. Your go-to destination for unbeatable deals on groceries, household items, and seasonal favorites.",
+    "address": "Madeena Complex, Shravanabelagola",
+    "phone": "+91 9972281484",
+    "mapUrl": "https://maps.app.goo.gl/dL7gq1E96zdCj5z86",
+    "products": [
+      { "name": "Salt Packet " },
+      { "name": "Turmeric Powder " },
+      { "name": "Mustard Seeds " },
+      { "name": "Matchbox Bundle" }
+    ]
+  }
+]

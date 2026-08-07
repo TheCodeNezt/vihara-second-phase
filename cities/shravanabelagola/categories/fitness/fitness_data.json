@@ -1,0 +1,17 @@
+[
+  {
+    "id": "gym1",
+    "name": "Chandu Fitness",
+    "type": "Unisex Gym",
+    "image": "../../images/explorica/gym/chandu_fitness.jpeg",
+    "location": "Channarayapatna Main Road, Beside KEB",
+    "phone": "+919876543210",
+    "mapLink": "https://maps.app.goo.gl/nxv1dN893cq4iK4g6",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "5:30 AM - 9:30 PM",
+    "price": "₹699 Onwards",
+    "features": "Cardio • Weights • Steam",
+    "description": "The biggest gym in town with imported equipment. We have separate timings for ladies and certified personal trainers available for weight loss programs."
+  }
+]
