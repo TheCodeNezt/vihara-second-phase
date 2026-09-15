@@ -1,0 +1,75 @@
+{
+  "added": [
+    {
+      "slug": "mysuru",
+      "name": "Mysuru",
+      "district": "mysuru",
+      "places": 60,
+      "cats": 15
+    },
+    {
+      "slug": "mangaluru",
+      "name": "Mangaluru",
+      "district": "dakshina_kannada",
+      "places": 60,
+      "cats": 15
+    },
+    {
+      "slug": "hubballi",
+      "name": "Hubballi",
+      "district": "hubballi",
+      "places": 60,
+      "cats": 15
+    },
+    {
+      "slug": "belagavi",
+      "name": "Belagavi",
+      "district": "belagavi",
+      "places": 60,
+      "cats": 15
+    },
+    {
+      "slug": "shivamogga",
+      "name": "Shivamogga",
+      "district": "shivamogga",
+      "places": 60,
+      "cats": 15
+    },
+    {
+      "slug": "kalaburagi",
+      "name": "Kalaburagi",
+      "district": "kalaburagi",
+      "places": 60,
+      "cats": 15
+    },
+    {
+      "slug": "ballari",
+      "name": "Ballari",
+      "district": "ballari",
+      "places": 60,
+      "cats": 15
+    },
+    {
+      "slug": "tumakuru",
+      "name": "Tumakuru",
+      "district": "tumakuru",
+      "places": 60,
+      "cats": 15
+    },
+    {
+      "slug": "davanagere",
+      "name": "Davanagere",
+      "district": "davanagere",
+      "places": 60,
+      "cats": 15
+    },
+    {
+      "slug": "hassan",
+      "name": "Hassan",
+      "district": "hassan",
+      "places": 60,
+      "cats": 15
+    }
+  ],
+  "skipped": []
+}

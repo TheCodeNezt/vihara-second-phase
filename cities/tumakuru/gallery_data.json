@@ -1,0 +1,22 @@
+[
+  {
+    "src": "./images/landmarks/tumakuru_bus_stand.jpg",
+    "cat": "nature",
+    "desc": "Tumkur KSRTC Bus Stand"
+  },
+  {
+    "src": "./images/landmarks/tumakuru_market.jpg",
+    "cat": "shop",
+    "desc": "Tumkur market"
+  },
+  {
+    "src": "./images/landmarks/tumakuru_old_city.jpg",
+    "cat": "nature",
+    "desc": "Tumakur"
+  },
+  {
+    "src": "./images/landmarks/tumakuru_railway.jpg",
+    "cat": "nature",
+    "desc": "Tumkur Railway Station"
+  }
+]

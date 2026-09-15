@@ -1,0 +1,21 @@
+{
+  "slug": "belagavi",
+  "name": "Belagavi",
+  "tagline": "Belagavi's granary bazaar, famous cattle fair, coffee belt trade and the old town's daily life.",
+  "fetchedAt": "2026-09-15T18:22:04.992Z",
+  "center": {
+    "latitude": 15.8608974,
+    "longitude": 74.5129177
+  },
+  "state": "karnataka",
+  "district": "belagavi",
+  "tier": 1,
+  "focus": "Bazaar, cattle fair and coffee belt",
+  "primaryCategories": [
+    "markets",
+    "food",
+    "retail_shops",
+    "services",
+    "stays"
+  ]
+}

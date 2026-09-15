@@ -1,0 +1,57 @@
+{
+  "state": "karnataka",
+  "stateDisplay": "Karnataka",
+  "district": "ballari",
+  "districtDisplay": "Ballari",
+  "blurb": "Ballari district — cotton fields, rock-cut cave temples and the historic Hoysala capital of Belur, a hub of north-Karnataka trade.",
+  "focusImage": "",
+  "tiers": {
+    "1": {
+      "name": "Tier 1 — Town Centres",
+      "tagline": "Full commercial hubs: retail, restaurants, services and gyms.",
+      "icon": "fa-city"
+    },
+    "2": {
+      "name": "Tier 2 — Heritage & Tourism",
+      "tagline": "Homestays, resorts, cafes and cultural heritage with rich visuals.",
+      "icon": "fa-mountain-sun"
+    },
+    "3": {
+      "name": "Tier 3 — Regional Trade",
+      "tagline": "Weekly santhes, markets and contractor services.",
+      "icon": "fa-store"
+    },
+    "4": {
+      "name": "Tier 4 — Micro Markets",
+      "tagline": "Specialised boutique offerings and smaller town conveniences.",
+      "icon": "fa-shop"
+    }
+  },
+  "towns": [
+    {
+      "slug": "ballari",
+      "name": "Ballari",
+      "tier": 1,
+      "focus": "Cotton, heritage cave temples and trade",
+      "primaryCategories": [
+        "markets",
+        "temples",
+        "retail_shops",
+        "food",
+        "services"
+      ]
+    },
+    {
+      "slug": "chikodi",
+      "name": "Chikodi",
+      "tier": 3,
+      "focus": "Sandalwood, silk and weekly markets",
+      "primaryCategories": [
+        "markets",
+        "retail_shops",
+        "services",
+        "food"
+      ]
+    }
+  ]
+}

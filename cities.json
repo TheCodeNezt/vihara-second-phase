@@ -20,6 +20,46 @@
     ]
   },
   {
+    "slug": "ballari",
+    "name": "Ballari",
+    "region": "",
+    "tagline": "Ballari's cotton trade, Rukmini Kalika temple, rock-cut cave heritage and Hoysala-era Belur nearby.",
+    "image": "cities/ballari/images/landmarks/sri_rukmini_kalika.jpg",
+    "placesCount": 60,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "ballari",
+    "tier": 1,
+    "focus": "Cotton, heritage cave temples and trade",
+    "primaryCategories": [
+      "markets",
+      "temples",
+      "retail_shops",
+      "food",
+      "services"
+    ]
+  },
+  {
+    "slug": "belagavi",
+    "name": "Belagavi",
+    "region": "",
+    "tagline": "Belagavi's granary bazaar, famous cattle fair, coffee belt trade and the old town's daily life.",
+    "image": "cities/belagavi/images/landmarks/margaesvara_temple.jpg",
+    "placesCount": 60,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "belagavi",
+    "tier": 1,
+    "focus": "Bazaar, cattle fair and coffee belt",
+    "primaryCategories": [
+      "markets",
+      "food",
+      "retail_shops",
+      "services",
+      "stays"
+    ]
+  },
+  {
     "slug": "channarayapatna",
     "name": "Channarayapatna",
     "region": "Karnataka",
@@ -38,6 +78,164 @@
       "services",
       "fitness",
       "education"
+    ]
+  },
+  {
+    "slug": "davanagere",
+    "name": "Davanagere",
+    "region": "",
+    "tagline": "Davanagere — a growing commercial hub on the Bengaluru–Mangaluru highway with strong retail and agricultural trade.",
+    "image": "cities/davanagere/images/landmarks/davanagere_market.jpg",
+    "placesCount": 60,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "davanagere",
+    "tier": 1,
+    "focus": "Commercial hub on the KM highway",
+    "primaryCategories": [
+      "markets",
+      "retail_shops",
+      "food",
+      "services",
+      "transport"
+    ]
+  },
+  {
+    "slug": "hassan",
+    "name": "Hassan",
+    "region": "",
+    "tagline": "Hassan — Hoysala capital with lakeside retail, restaurants, daily services and heritage stays.",
+    "image": "cities/hassan/images/landmarks/hassan_bus_stand.jpg",
+    "placesCount": 60,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "hassan",
+    "tier": 1,
+    "focus": "Retail, restaurants and daily services",
+    "primaryCategories": [
+      "retail_shops",
+      "food",
+      "services",
+      "fitness",
+      "markets"
+    ]
+  },
+  {
+    "slug": "hubballi",
+    "name": "Hubballi",
+    "region": "",
+    "tagline": "Hubballi–Dharwad's twin-city trade — Ganesha and Chandramouleshwara temples, Old Hubli bazaar and Vidyanagari's food.",
+    "image": "cities/hubballi/images/landmarks/hubballi_bus_stand.jpg",
+    "placesCount": 60,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "hubballi",
+    "tier": 1,
+    "focus": "Twin-city trade, food and services",
+    "primaryCategories": [
+      "food",
+      "retail_shops",
+      "services",
+      "markets",
+      "stays"
+    ]
+  },
+  {
+    "slug": "kalaburagi",
+    "name": "Kalaburagi",
+    "region": "",
+    "tagline": "Kalaburagi — Sharana Basaveshwara's legacy, the old bazaar and the region's grain and cattle trade.",
+    "image": "cities/kalaburagi/images/landmarks/chaturbhujendra.jpg",
+    "placesCount": 60,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "kalaburagi",
+    "tier": 1,
+    "focus": "Old bazaar, Jain heritage and grain trade",
+    "primaryCategories": [
+      "markets",
+      "temples",
+      "food",
+      "retail_shops"
+    ]
+  },
+  {
+    "slug": "mangaluru",
+    "name": "Mangaluru",
+    "region": "",
+    "tagline": "Mangaluru's coastal markets, St. Aloysius and Kadri Manjunatha temples, Panambur beach and the port's busy trade.",
+    "image": "cities/mangaluru/images/landmarks/st_alloysi_church.jpg",
+    "placesCount": 60,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "dakshina_kannada",
+    "tier": 1,
+    "focus": "Coastal markets, beaches and trade",
+    "primaryCategories": [
+      "markets",
+      "food",
+      "retail_shops",
+      "stays",
+      "nature"
+    ]
+  },
+  {
+    "slug": "mysuru",
+    "name": "Mysuru",
+    "region": "",
+    "tagline": "The City of Palaces — Chamundi Devi gopurams, the royal darbar hall, Devaraja markets, silk, coffee and lakeside stays.",
+    "image": "cities/mysuru/images/landmarks/chamundi_temple.jpg",
+    "placesCount": 60,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "mysuru",
+    "tier": 1,
+    "focus": "Palaces, temples and royal heritage",
+    "primaryCategories": [
+      "temples",
+      "travels",
+      "stays",
+      "food",
+      "nature"
+    ]
+  },
+  {
+    "slug": "shivamogga",
+    "name": "Shivamogga",
+    "region": "",
+    "tagline": "Shivamogga — Karnataka's coffee capital: APMC markets, estate stays, Tala lakes, waterfalls and plant heritage.",
+    "image": "cities/shivamogga/images/landmarks/talakadu.jpg",
+    "placesCount": 60,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "shivamogga",
+    "tier": 1,
+    "focus": "Coffee capital, lakes and estate stays",
+    "primaryCategories": [
+      "stays",
+      "nature",
+      "food",
+      "markets",
+      "services"
+    ]
+  },
+  {
+    "slug": "tumakuru",
+    "name": "Tumakuru",
+    "region": "",
+    "tagline": "Tumakuru — the mango city's riverside markets, dairy heartland and a growing retail and services economy.",
+    "image": "cities/tumakuru/images/landmarks/tumakuru_bus_stand.jpg",
+    "placesCount": 60,
+    "categoriesCount": 15,
+    "state": "karnataka",
+    "district": "tumakuru",
+    "tier": 1,
+    "focus": "Mango trade, dairy and retail",
+    "primaryCategories": [
+      "markets",
+      "food",
+      "retail_shops",
+      "services"
     ]
   }
 ]

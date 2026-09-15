@@ -1,0 +1,120 @@
+[
+  {
+    "id": "r1",
+    "name": "General Store & Grocery — Mangaluru",
+    "image": "",
+    "location": "Main Road, Mangaluru, Karnataka",
+    "phone": "961668302",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4,
+    "description": "A trusted Mangaluru shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Grains"
+      },
+      {
+        "name": "Oils"
+      },
+      {
+        "name": "Household"
+      }
+    ]
+  },
+  {
+    "id": "r2",
+    "name": "Clothing & Fashion Store — Mangaluru",
+    "image": "",
+    "location": "Main Road, Mangaluru, Karnataka",
+    "phone": "961668303",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4.7,
+    "description": "A trusted Mangaluru shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Everyday Essentials"
+      },
+      {
+        "name": "Fabric & Wear"
+      }
+    ]
+  },
+  {
+    "id": "r3",
+    "name": "Electronics & Mobile Shop — Mangaluru",
+    "image": "",
+    "location": "Main Road, Mangaluru, Karnataka",
+    "phone": "961668304",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4.5,
+    "description": "A trusted Mangaluru shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Grains"
+      },
+      {
+        "name": "Oils"
+      },
+      {
+        "name": "Household"
+      }
+    ]
+  },
+  {
+    "id": "r4",
+    "name": "Provision Store — Mangaluru",
+    "image": "",
+    "location": "Main Road, Mangaluru, Karnataka",
+    "phone": "961668305",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4.3,
+    "description": "A trusted Mangaluru shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Everyday Essentials"
+      },
+      {
+        "name": "Fabric & Wear"
+      }
+    ]
+  }
+]

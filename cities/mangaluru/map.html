@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Navigate | Vihara</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+/* ===== RESET & VARIABLES ===== */
+:root {
+  --primary: #FF9933;
+  --text-dark: #333;
+  --bg-light: #f4f4f4;
+  --white: #ffffff;
+  --shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-light);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevents scroll on body */
+}
+
+/* ===== HEADER (Floating) ===== */
+.map-header {
+  position: absolute;
+  top: 20px; left: 20px; right: 20px;
+  z-index: 100;
+  display: flex; gap: 10px;
+}
+
+.back-btn {
+  background: var(--white);
+  width: 45px; height: 45px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-dark);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+  font-size: 1.2rem;
+}
+
+.search-dummy {
+  flex: 1;
+  background: var(--white);
+  height: 45px;
+  border-radius: 50px;
+  display: flex; align-items: center;
+  padding: 0 20px;
+  color: #888;
+  font-size: 0.9rem;
+  box-shadow: var(--shadow);
+}
+
+/* ===== MAP CONTAINER ===== */
+.map-wrapper {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ===== BOTTOM DRAWER (The "Good Layout" Part) ===== */
+.bottom-drawer {
+  position: absolute;
+  bottom: 0; left: 0; width: 100%;
+  background: transparent;
+  z-index: 100;
+  padding: 0 0 20px 0;
+}
+
+/* Category Chips */
+.chip-scroll {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  overflow-x: auto;
+  margin-bottom: 10px;
+  scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+.chip-scroll::-webkit-scrollbar { display: none; } /* Hide scrollbar Chrome */
+
+.chip {
+  background: var(--white);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  white-space: nowrap;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: flex; align-items: center; gap: 6px;
+  text-decoration: none;
+}
+.chip i { color: var(--primary); }
+
+/* Horizontal Location Cards */
+.location-scroll {
+  display: flex;
+  gap: 15px;
+  padding: 0 20px 20px 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.location-scroll::-webkit-scrollbar { display: none; }
+
+.loc-card {
+  min-width: 260px;
+  background: var(--white);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.2s;
+}
+
+.loc-img {
+  width: 70px; height: 70px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.loc-info h4 { margin: 0; font-size: 0.95rem; color: #333; }
+.loc-info p { margin: 2px 0 8px 0; font-size: 0.75rem; color: #777; }
+
+.btn-go {
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  font-size: 0.75rem;
+  padding: 5px 12px;
+  border-radius: 4px;
+  display: inline-block;
+}
+</style>
+</head>
+
+<body>
+
+  <div class="map-header">
+    <a href="index.html" class="back-btn" onclick="if(history.length>1){history.back();return false;}"><i class="fas fa-arrow-left"></i></a>
+    <div class="search-dummy">
+      <i class="fas fa-search" style="margin-right: 10px; color: var(--primary);"></i>
+      Search Mangaluru...
+    </div>
+  </div>
+
+  <div class="map-wrapper">
+    <iframe 
+      src="https://www.google.com/maps?q=Mangaluru%2C%20undefined&output=embed" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <div class="bottom-drawer">
+    
+    <div class="chip-scroll">
+      <a href="categories/temples/temples.html" class="chip"><i class="fas fa-gopuram"></i> Temples</a>
+      <a href="categories/food/food.html" class="chip"><i class="fas fa-utensils"></i> Food</a>
+      <a href="categories/retail_shops/retail_shops.html" class="chip"><i class="fas fa-store"></i> Shops</a>
+      <a href="categories/street_food/street_food.html" class="chip"><i class="fas fa-bowl-food"></i> Street Food</a>
+      <a href="categories/transport/transport.html" class="chip"><i class="fas fa-bus"></i> Transport</a>
+      <a href="categories/stays/stays.html" class="chip"><i class="fas fa-bed"></i> Stay</a>
+      <a href="more_categories.html" class="chip"><i class="fas fa-th-large"></i> All</a>
+    </div>
+
+    <div class="location-scroll">
+      <div class="loc-card">
+        <img src="images/landmarks/st_alloysi_church.jpg" class="loc-img" alt="St.Aloysius Chapel">
+        <div class="loc-info">
+          <h4>St.Aloysius Chapel</h4>
+          <p>St. Aloysius Cathedral on Goglan Hill</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=St.%20Aloysi%20Church%2C%20Mangalore" target="_blank" class="btn-go">
+            <i class="fas fa-location-arrow"></i> Navigate
+          </a>
+        </div>
+      </div>
+      <div class="loc-card">
+        <img src="images/landmarks/central_market.jpg" class="loc-img" alt="Central market">
+        <div class="loc-info">
+          <h4>Central market</h4>
+          <p>Mangaluru's central market</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Mangaluru%20Central%20Market" target="_blank" class="btn-go">
+            <i class="fas fa-location-arrow"></i> Navigate
+          </a>
+        </div>
+      </div>
+      <div class="loc-card">
+        <img src="images/landmarks/mangaluru_port.jpg" class="loc-img" alt="Mangalore Old Port">
+        <div class="loc-info">
+          <h4>Mangalore Old Port</h4>
+          <p>Mangaluru harbour</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Mangaluru%20Port" target="_blank" class="btn-go">
+            <i class="fas fa-location-arrow"></i> Navigate
+          </a>
+        </div>
+      </div>
+      <div class="loc-card">
+        <img src="images/landmarks/kadari_majunarasa.jpg" class="loc-img" alt="Kadri Shree Manjunatha Temple">
+        <div class="loc-info">
+          <h4>Kadri Shree Manjunatha Temple</h4>
+          <p>Kadri Manjunatha Temple</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Kadri%20Manjunatha%20Temple%2C%20Mangalore" target="_blank" class="btn-go">
+            <i class="fas fa-location-arrow"></i> Navigate
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "src": "./images/landmarks/talakadu.jpg",
+    "cat": "nature",
+    "desc": "Talakad"
+  },
+  {
+    "src": "./images/landmarks/kodagu_waterfalls.jpg",
+    "cat": "nature",
+    "desc": "Mallalli Waterfalls"
+  },
+  {
+    "src": "./images/landmarks/kushalnagar.jpg",
+    "cat": "nature",
+    "desc": "Kushalnagar"
+  },
+  {
+    "src": "./images/landmarks/shivamogga_market.jpg",
+    "cat": "shop",
+    "desc": "APMC Market Main Gate, Shivamogga"
+  }
+]

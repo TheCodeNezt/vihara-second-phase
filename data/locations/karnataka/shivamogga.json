@@ -1,0 +1,67 @@
+{
+  "state": "karnataka",
+  "stateDisplay": "Karnataka",
+  "district": "shivamogga",
+  "districtDisplay": "Shivamogga",
+  "blurb": "Shivamogga — the coffee capital of Karnataka: estate stays, waterfalls, Tala lakes and a rich plant-heritage tradition.",
+  "focusImage": "",
+  "tiers": {
+    "1": {
+      "name": "Tier 1 — Town Centres",
+      "tagline": "Full commercial hubs: retail, restaurants, services and gyms.",
+      "icon": "fa-city"
+    },
+    "2": {
+      "name": "Tier 2 — Heritage & Tourism",
+      "tagline": "Homestays, resorts, cafes and cultural heritage with rich visuals.",
+      "icon": "fa-mountain-sun"
+    },
+    "3": {
+      "name": "Tier 3 — Regional Trade",
+      "tagline": "Weekly santhes, markets and contractor services.",
+      "icon": "fa-store"
+    },
+    "4": {
+      "name": "Tier 4 — Micro Markets",
+      "tagline": "Specialised boutique offerings and smaller town conveniences.",
+      "icon": "fa-shop"
+    }
+  },
+  "towns": [
+    {
+      "slug": "shivamogga",
+      "name": "Shivamogga",
+      "tier": 1,
+      "focus": "Coffee capital, lakes and estate stays",
+      "primaryCategories": [
+        "stays",
+        "nature",
+        "food",
+        "markets",
+        "services"
+      ]
+    },
+    {
+      "slug": "kushalnagar",
+      "name": "Kushalnagar",
+      "tier": 2,
+      "focus": "Tala lake, forests and heritage stays",
+      "primaryCategories": [
+        "nature",
+        "stays",
+        "temples"
+      ]
+    },
+    {
+      "slug": "kodagu",
+      "name": "Kodagu (Coorg)",
+      "tier": 2,
+      "focus": "Waterfalls, estates and homestays",
+      "primaryCategories": [
+        "nature",
+        "stays",
+        "travels"
+      ]
+    }
+  ]
+}

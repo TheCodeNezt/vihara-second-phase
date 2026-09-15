@@ -1,0 +1,45 @@
+{
+  "state": "karnataka",
+  "stateDisplay": "Karnataka",
+  "district": "davanagere",
+  "districtDisplay": "Davanagere",
+  "blurb": "Davanagere — the Dharwad of the south: a growing commercial town on the Bengaluru–Mangaluru motorway with strong agricultural trade.",
+  "focusImage": "",
+  "tiers": {
+    "1": {
+      "name": "Tier 1 — Town Centres",
+      "tagline": "Full commercial hubs: retail, restaurants, services and gyms.",
+      "icon": "fa-city"
+    },
+    "2": {
+      "name": "Tier 2 — Heritage & Tourism",
+      "tagline": "Homestays, resorts, cafes and cultural heritage with rich visuals.",
+      "icon": "fa-mountain-sun"
+    },
+    "3": {
+      "name": "Tier 3 — Regional Trade",
+      "tagline": "Weekly santhes, markets and contractor services.",
+      "icon": "fa-store"
+    },
+    "4": {
+      "name": "Tier 4 — Micro Markets",
+      "tagline": "Specialised boutique offerings and smaller town conveniences.",
+      "icon": "fa-shop"
+    }
+  },
+  "towns": [
+    {
+      "slug": "davanagere",
+      "name": "Davanagere",
+      "tier": 1,
+      "focus": "Commercial hub on the KM highway",
+      "primaryCategories": [
+        "markets",
+        "retail_shops",
+        "food",
+        "services",
+        "transport"
+      ]
+    }
+  ]
+}

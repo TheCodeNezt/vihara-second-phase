@@ -1,0 +1,27 @@
+[
+  {
+    "src": "./images/landmarks/hassan_bus_stand.jpg",
+    "cat": "nature",
+    "desc": "Hassan KSRTC Bus Stand"
+  },
+  {
+    "src": "./images/landmarks/hassan_market.jpg",
+    "cat": "shop",
+    "desc": "Hassan Market"
+  },
+  {
+    "src": "./images/landmarks/hassan_old_city.jpg",
+    "cat": "nature",
+    "desc": "Hassan City Bus Stand"
+  },
+  {
+    "src": "./images/landmarks/hassan_lake.jpg",
+    "cat": "nature",
+    "desc": "Hunasinakere lake"
+  },
+  {
+    "src": "./images/landmarks/hassan_railway.jpg",
+    "cat": "nature",
+    "desc": "Hassan Junction Railway Station (HAS)"
+  }
+]

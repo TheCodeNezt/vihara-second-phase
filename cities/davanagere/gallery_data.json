@@ -1,0 +1,22 @@
+[
+  {
+    "src": "./images/landmarks/davanagere_market.jpg",
+    "cat": "shop",
+    "desc": "Krishnna Raja Market"
+  },
+  {
+    "src": "./images/landmarks/davanagere_old_city.jpg",
+    "cat": "nature",
+    "desc": "Davangere Municipal Corporation Office"
+  },
+  {
+    "src": "./images/landmarks/davanagere_bus_stand.jpg",
+    "cat": "nature",
+    "desc": "Davanagere New KSRTC Bus Stand"
+  },
+  {
+    "src": "./images/landmarks/davanagere_city.jpg",
+    "cat": "nature",
+    "desc": "Davangere"
+  }
+]

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQZYVV8CS1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQZYVV8CS1');
+</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Details | Vihara</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root { --primary: #FF9933; --whatsapp: #25D366; --bg-body: #f8f9fa; --radius: 20px; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Poppins', sans-serif; background: var(--bg-body); padding-bottom: 40px; }
+
+    header { background: rgba(255,255,255,0.95); padding: 1rem 5%; position: sticky; top: 0; z-index: 100; box-shadow: 0 4px 20px rgba(0,0,0,0.03); display: flex; align-items: center; gap: 15px; }
+    .back-btn { text-decoration: none; color: #333; font-size: 1.2rem; }
+    .header-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700; color: var(--primary); }
+
+    .hero-container { width: 100%; height: 250px; background: #ddd; position: relative; }
+    .hero-img { width: 100%; height: 100%; object-fit: cover; }
+    
+    .container { max-width: 800px; margin: -40px auto 0; position: relative; padding: 0 20px; }
+    .info-card { background: white; border-radius: var(--radius); padding: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); margin-bottom: 20px; }
+    
+    .shop-name { font-family: 'Playfair Display', serif; font-size: 1.8rem; margin-bottom: 5px; }
+    .btn-whatsapp { background: var(--whatsapp); color: white; width: 100%; padding: 12px; border-radius: 50px; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(37,211,102,0.3); margin-bottom: 15px; }
+    
+    .action-row { display: flex; gap: 10px; }
+    .btn { flex: 1; padding: 12px; border-radius: 50px; text-align: center; text-decoration: none; font-weight: 600; display: flex; justify-content: center; gap: 8px; font-size: 0.9rem; }
+    .btn-outline { border: 2px solid #eee; color: #333; background: white; }
+    .btn-primary { background: var(--primary); color: white; }
+
+    .product-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; }
+    .product-card { background: #f9f9f9; padding: 15px; border-radius: 12px; text-align: center; border: 1px solid #eee; }
+
+    #loader { text-align: center; padding: 50px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="retail_shops.html" class="back-btn" onclick="if(history.length>1){history.back();return false;}"><i class="fas fa-arrow-left"></i></a>
+    <div class="header-title">Shop Details</div>
+  </header>
+
+  <div id="loader"><i class="fas fa-spinner fa-spin"></i> Loading...</div>
+  
+  <div id="content" style="display: none;">
+    <div class="hero-container">
+      <img id="shopImg" src="" class="hero-img" 
+           onerror="this.onerror=null; this.src='https://placehold.co/800x400?text=No+Image';">
+    </div>
+
+    <div class="container">
+      <div class="info-card">
+        <h1 class="shop-name" id="shopName">...</h1>
+        <p style="color:#666; margin-bottom:15px;" id="shopDesc">...</p>
+        
+        <a href="javascript:void(0)" id="btnWhatsapp" class="btn-whatsapp">
+          <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+
+        <div class="action-row">
+          <a href="javascript:void(0)" id="btnCall" class="btn btn-outline"><i class="fas fa-phone"></i> Call</a>
+          <a href="#" id="btnNavigate" target="_blank" class="btn btn-primary"><i class="fas fa-directions"></i> Map</a>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <h3 style="margin-bottom:15px;">Products</h3>
+        <div class="product-list" id="productsContainer"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../../js/whatsapp.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const shopId = parseInt(urlParams.get('id'));
+
+    fetch('./retail_shops.json')
+      .then(res => res.json())
+      .then(shops => {
+        const shop = shops.find(s => s.id === shopId);
+        if (shop) renderDetails(shop);
+        else document.getElementById('loader').innerHTML = "Shop not found.";
+      })
+      .catch(err => {
+        document.getElementById('loader').innerHTML = "Error loading data.<br>Check json file location.";
+      });
+
+    function renderDetails(shop) {
+      document.getElementById('loader').style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+
+      document.getElementById('shopName').textContent = shop.name;
+      document.getElementById('shopDesc').textContent = shop.description;
+      document.getElementById('shopImg').src = shop.image;
+
+      // --- WHATSAPP + CALL: CONTACT THE SHOP DIRECTLY ---
+      // Both buttons connect the visitor straight to the business owner.
+      const waBtn = document.getElementById('btnWhatsapp');
+      const callBtn = document.getElementById('btnCall');
+
+      // Both buttons stay clickable: the shared helper opens WhatsApp / dials
+      // when a number exists, or shows a "number not added yet" popup if it's
+      // missing.
+      waBtn.setAttribute('data-wa', shop.phone || '');
+      waBtn.setAttribute('data-wa-name', shop.name || '');
+      waBtn.style.opacity = "1";
+
+      callBtn.setAttribute('data-call', shop.phone || '');
+      callBtn.setAttribute('data-call-name', shop.name || '');
+      callBtn.style.opacity = "1";
+
+      // Map Logic
+      const navBtn = document.getElementById('btnNavigate');
+      navBtn.href = shop.mapUrl ? shop.mapUrl : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(shop.name + " " + (shop.address || ""))}`;
+
+      // Products
+      const pContainer = document.getElementById('productsContainer');
+      if(shop.products) {
+        shop.products.forEach(p => {
+          pContainer.innerHTML += `
+            <div class="product-card">
+              <div style="font-weight:500">${p.name}</div>
+              <div style="color:var(--primary); font-weight:700">${p.price}</div>
+            </div>`;
+        });
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "src": "./images/landmarks/chamundi_temple.jpg",
+    "cat": "temple",
+    "desc": "Sri Chamundeshwari Temple"
+  },
+  {
+    "src": "./images/landmarks/mysore_palace.jpg",
+    "cat": "nature",
+    "desc": "Mysuru Palace"
+  },
+  {
+    "src": "./images/landmarks/devaraja_market.jpg",
+    "cat": "shop",
+    "desc": "Devaraja market"
+  },
+  {
+    "src": "./images/landmarks/chamundi_hills.jpg",
+    "cat": "nature",
+    "desc": "Chamundi Hill"
+  },
+  {
+    "src": "./images/landmarks/brindavan_garden.jpg",
+    "cat": "nature",
+    "desc": "Brindavana Gardens"
+  },
+  {
+    "src": "./images/landmarks/karanji_lake.jpg",
+    "cat": "nature",
+    "desc": "Karanji Lake"
+  }
+]

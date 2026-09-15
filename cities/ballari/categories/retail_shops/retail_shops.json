@@ -1,0 +1,120 @@
+[
+  {
+    "id": "r1",
+    "name": "General Store & Grocery — Ballari",
+    "image": "",
+    "location": "Main Road, Ballari, Karnataka",
+    "phone": "951550958",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4,
+    "description": "A trusted Ballari shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Grains"
+      },
+      {
+        "name": "Oils"
+      },
+      {
+        "name": "Household"
+      }
+    ]
+  },
+  {
+    "id": "r2",
+    "name": "Clothing & Fashion Store — Ballari",
+    "image": "",
+    "location": "Main Road, Ballari, Karnataka",
+    "phone": "951550959",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4.7,
+    "description": "A trusted Ballari shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Everyday Essentials"
+      },
+      {
+        "name": "Fabric & Wear"
+      }
+    ]
+  },
+  {
+    "id": "r3",
+    "name": "Electronics & Mobile Shop — Ballari",
+    "image": "",
+    "location": "Main Road, Ballari, Karnataka",
+    "phone": "951550960",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4.5,
+    "description": "A trusted Ballari shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Grains"
+      },
+      {
+        "name": "Oils"
+      },
+      {
+        "name": "Household"
+      }
+    ]
+  },
+  {
+    "id": "r4",
+    "name": "Provision Store — Ballari",
+    "image": "",
+    "location": "Main Road, Ballari, Karnataka",
+    "phone": "951550961",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4.3,
+    "description": "A trusted Ballari shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Everyday Essentials"
+      },
+      {
+        "name": "Fabric & Wear"
+      }
+    ]
+  }
+]

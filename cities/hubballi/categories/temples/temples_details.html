@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQZYVV8CS1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQZYVV8CS1');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Details | Vihara</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+  :root { --primary: #e65100; --accent: #ff6f00; --bg-light: #fff3e0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+  body { background: var(--bg-light); color: #333; padding-bottom: 80px; }
+
+  /* HEADER */
+  .detail-header { position: absolute; top: 0; left: 0; width: 100%; padding: 15px; z-index: 10; }
+  .back-circle { width: 40px; height: 40px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; color: #333; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+
+  /* HERO */
+  .hero-img-container { width: 100%; height: 300px; position: relative; }
+  .hero-img { width: 100%; height: 100%; object-fit: cover; }
+  .overlay-gradient { position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; background: linear-gradient(to top, var(--bg-light), transparent); }
+
+  /* CONTENT */
+  .content-box { padding: 0 20px; margin-top: -40px; position: relative; z-index: 5; }
+  .title-section { margin-bottom: 20px; }
+  .shop-status { display: inline-block; padding: 4px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 600; color: white; margin-bottom: 10px; }
+  .shop-title { font-size: 1.8rem; color: #bf360c; line-height: 1.2; }
+  .shop-location { color: #666; font-size: 0.9rem; margin-top: 5px; }
+
+  /* CARDS */
+  .info-card { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); margin-bottom: 20px; }
+  .info-row { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; }
+  .info-icon { width: 40px; height: 40px; background: #ffe0b2; color: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; }
+  .info-text h4 { font-size: 0.9rem; color: #888; margin-bottom: 2px; }
+  .info-text p { font-size: 1rem; font-weight: 600; color: #333; }
+
+  /* FOOTER */
+  .sticky-actions { position: fixed; bottom: 0; left: 0; width: 100%; background: white; padding: 15px 20px; box-shadow: 0 -5px 20px rgba(0,0,0,0.1); display: flex; gap: 15px; z-index: 100; }
+  .action-btn { flex: 1; padding: 14px; border-radius: 50px; text-align: center; text-decoration: none; font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 8px; transition: 0.3s; }
+  .btn-call { background: var(--primary); color: white; }
+  .btn-map { background: #ffe0b2; color: #bf360c; }
+  .btn-whatsapp { background: #25D366; color: white; }
+
+  .loading { text-align: center; padding: 50px; color: #888; }
+</style>
+</head>
+<body>
+
+  <div class="detail-header">
+    <a href="temples.html" class="back-circle" onclick="if(history.length>1){history.back();return false;}"><i class="fas fa-arrow-left"></i></a>
+  </div>
+
+  <div id="shopContent">
+    <div class="loading">Loading details...</div>
+  </div>
+
+  <script src="../../js/live-status.js"></script>
+  <script src="../../js/whatsapp.js"></script>
+  <script>
+    async function loadDetails() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const shopId = urlParams.get('id');
+      const content = document.getElementById('shopContent');
+
+      try {
+        const response = await fetch('temples_data.json');
+        const shops = await response.json();
+        const shop = shops.find(s => s.id === shopId);
+        if (shop && window.VihStatus) VihStatus.applyLiveStatus(shop);
+
+        if (!shop) { content.innerHTML = "<p class='loading'>Temple not found.</p>"; return; }
+
+        content.innerHTML = `
+          <div class="hero-img-container">
+            <img src="${shop.image}" class="hero-img" alt="${shop.name}" onerror="this.src='https://via.placeholder.com/600?text=No+Image'">
+            <div class="overlay-gradient"></div>
+          </div>
+
+          <div class="content-box">
+            <div class="title-section">
+              <span class="shop-status" style="background:${shop.statusColor}">${shop.status}</span>
+              <h1 class="shop-title">${shop.name}</h1>
+              <p class="shop-location"><i class="fas fa-map-marker-alt"></i> ${shop.location}</p>
+            </div>
+
+            <div class="info-card">
+              <div class="info-row">
+                <div class="info-icon"><i class="fas fa-praying-hands"></i></div>
+                <div class="info-text">
+                  <h4>Deity</h4>
+                  <p>${shop.deity}</p>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-icon"><i class="fas fa-bell"></i></div>
+                <div class="info-text">
+                  <h4>Pooja Timings</h4>
+                  <p>${shop.pooja}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-row">
+                <div class="info-text" style="width:100%">
+                  <h4>History & Info</h4>
+                  <p style="font-weight:400; line-height:1.6; color:#555;">${shop.description}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sticky-actions">
+            <a href="${shop.mapLink}" target="_blank" class="action-btn btn-map"><i class="fas fa-location-arrow"></i> Map</a>
+            <a href="javascript:void(0)" data-wa="${shop.phone||''}" data-wa-name="${(shop.name||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;')}" class="action-btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="javascript:void(0)" data-call="${shop.phone||''}" data-call-name="${(shop.name||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;')}" class="action-btn btn-call"><i class="fas fa-phone-alt"></i> Call</a>
+          </div>
+        `;
+      } catch (error) {
+        console.error(error);
+        content.innerHTML = "<p class='loading'>Error loading details.</p>";
+      }
+    }
+    loadDetails();
+  </script>
+
+</body>
+</html>

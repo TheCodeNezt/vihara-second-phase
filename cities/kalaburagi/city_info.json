@@ -1,0 +1,20 @@
+{
+  "slug": "kalaburagi",
+  "name": "Kalaburagi",
+  "tagline": "Kalaburagi — Sharana Basaveshwara's legacy, the old bazaar and the region's grain and cattle trade.",
+  "fetchedAt": "2026-09-15T18:22:05.163Z",
+  "center": {
+    "latitude": 17.329731,
+    "longitude": 76.8342957
+  },
+  "state": "karnataka",
+  "district": "kalaburagi",
+  "tier": 1,
+  "focus": "Old bazaar, Jain heritage and grain trade",
+  "primaryCategories": [
+    "markets",
+    "temples",
+    "food",
+    "retail_shops"
+  ]
+}

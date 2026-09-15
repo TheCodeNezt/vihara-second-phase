@@ -1,0 +1,21 @@
+{
+  "slug": "ballari",
+  "name": "Ballari",
+  "tagline": "Ballari's cotton trade, Rukmini Kalika temple, rock-cut cave heritage and Hoysala-era Belur nearby.",
+  "fetchedAt": "2026-09-15T18:22:05.240Z",
+  "center": {
+    "latitude": 15.1393932,
+    "longitude": 76.9214428
+  },
+  "state": "karnataka",
+  "district": "ballari",
+  "tier": 1,
+  "focus": "Cotton, heritage cave temples and trade",
+  "primaryCategories": [
+    "markets",
+    "temples",
+    "retail_shops",
+    "food",
+    "services"
+  ]
+}

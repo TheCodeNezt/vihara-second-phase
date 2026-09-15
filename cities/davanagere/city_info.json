@@ -1,0 +1,21 @@
+{
+  "slug": "davanagere",
+  "name": "Davanagere",
+  "tagline": "Davanagere — a growing commercial hub on the Bengaluru–Mangaluru highway with strong retail and agricultural trade.",
+  "fetchedAt": "2026-09-15T18:22:05.382Z",
+  "center": {
+    "latitude": 14.4644085,
+    "longitude": 75.921758
+  },
+  "state": "karnataka",
+  "district": "davanagere",
+  "tier": 1,
+  "focus": "Commercial hub on the KM highway",
+  "primaryCategories": [
+    "markets",
+    "retail_shops",
+    "food",
+    "services",
+    "transport"
+  ]
+}

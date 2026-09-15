@@ -1,0 +1,45 @@
+{
+  "state": "karnataka",
+  "stateDisplay": "Karnataka",
+  "district": "dakshina_kannada",
+  "districtDisplay": "Dakshina Kannada",
+  "blurb": "Dakshina Kannada — Malabar Coast by day, Arabian Sea by night. Mangaluru's markets, beaches, coconuts and coastal trade.",
+  "focusImage": "",
+  "tiers": {
+    "1": {
+      "name": "Tier 1 — Town Centres",
+      "tagline": "Full commercial hubs: retail, restaurants, services and gyms.",
+      "icon": "fa-city"
+    },
+    "2": {
+      "name": "Tier 2 — Heritage & Tourism",
+      "tagline": "Homestays, resorts, cafes and cultural heritage with rich visuals.",
+      "icon": "fa-mountain-sun"
+    },
+    "3": {
+      "name": "Tier 3 — Regional Trade",
+      "tagline": "Weekly santhes, markets and contractor services.",
+      "icon": "fa-store"
+    },
+    "4": {
+      "name": "Tier 4 — Micro Markets",
+      "tagline": "Specialised boutique offerings and smaller town conveniences.",
+      "icon": "fa-shop"
+    }
+  },
+  "towns": [
+    {
+      "slug": "mangaluru",
+      "name": "Mangaluru",
+      "tier": 1,
+      "focus": "Coastal markets, beaches and trade",
+      "primaryCategories": [
+        "markets",
+        "food",
+        "retail_shops",
+        "stays",
+        "nature"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "hassan",
+  "name": "Hassan",
+  "tagline": "Hassan — Hoysala capital with lakeside retail, restaurants, daily services and heritage stays.",
+  "fetchedAt": "2026-09-15T18:22:06.519Z",
+  "center": {
+    "latitude": 13.0033234,
+    "longitude": 76.1003894
+  },
+  "state": "karnataka",
+  "district": "hassan",
+  "tier": 1,
+  "focus": "Retail, restaurants and daily services",
+  "primaryCategories": [
+    "retail_shops",
+    "food",
+    "services",
+    "fitness",
+    "markets"
+  ]
+}

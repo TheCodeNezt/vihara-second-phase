@@ -1,0 +1,120 @@
+[
+  {
+    "id": "r1",
+    "name": "General Store & Grocery — Hassan",
+    "image": "",
+    "location": "Main Road, Hassan, Karnataka",
+    "phone": "916110879",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4,
+    "description": "A trusted Hassan shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Grains"
+      },
+      {
+        "name": "Oils"
+      },
+      {
+        "name": "Household"
+      }
+    ]
+  },
+  {
+    "id": "r2",
+    "name": "Clothing & Fashion Store — Hassan",
+    "image": "",
+    "location": "Main Road, Hassan, Karnataka",
+    "phone": "916110880",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4.7,
+    "description": "A trusted Hassan shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Everyday Essentials"
+      },
+      {
+        "name": "Fabric & Wear"
+      }
+    ]
+  },
+  {
+    "id": "r3",
+    "name": "Electronics & Mobile Shop — Hassan",
+    "image": "",
+    "location": "Main Road, Hassan, Karnataka",
+    "phone": "916110881",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4.5,
+    "description": "A trusted Hassan shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Grains"
+      },
+      {
+        "name": "Oils"
+      },
+      {
+        "name": "Household"
+      }
+    ]
+  },
+  {
+    "id": "r4",
+    "name": "Provision Store — Hassan",
+    "image": "",
+    "location": "Main Road, Hassan, Karnataka",
+    "phone": "916110882",
+    "mapLink": "",
+    "map_link": "",
+    "mapUrl": "",
+    "status": "Open Now",
+    "statusColor": "#27ae60",
+    "timings": "8:00 AM - 9:00 PM",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "price": "",
+    "rating": 4.3,
+    "description": "A trusted Hassan shop for daily essentials, stocked from local suppliers.",
+    "type": "General Store",
+    "category": "General Store",
+    "products": [
+      {
+        "name": "Everyday Essentials"
+      },
+      {
+        "name": "Fabric & Wear"
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "state": "karnataka",
+  "stateDisplay": "Karnataka",
+  "district": "belagavi",
+  "districtDisplay": "Belagavi",
+  "blurb": "Belagavi — the granary of Karnataka: old town bazaar, cattle fair, coffee belt and the region's busiest commercial core.",
+  "focusImage": "",
+  "tiers": {
+    "1": {
+      "name": "Tier 1 — Town Centres",
+      "tagline": "Full commercial hubs: retail, restaurants, services and gyms.",
+      "icon": "fa-city"
+    },
+    "2": {
+      "name": "Tier 2 — Heritage & Tourism",
+      "tagline": "Homestays, resorts, cafes and cultural heritage with rich visuals.",
+      "icon": "fa-mountain-sun"
+    },
+    "3": {
+      "name": "Tier 3 — Regional Trade",
+      "tagline": "Weekly santhes, markets and contractor services.",
+      "icon": "fa-store"
+    },
+    "4": {
+      "name": "Tier 4 — Micro Markets",
+      "tagline": "Specialised boutique offerings and smaller town conveniences.",
+      "icon": "fa-shop"
+    }
+  },
+  "towns": [
+    {
+      "slug": "belagavi",
+      "name": "Belagavi",
+      "tier": 1,
+      "focus": "Bazaar, cattle fair and coffee belt",
+      "primaryCategories": [
+        "markets",
+        "food",
+        "retail_shops",
+        "services",
+        "stays"
+      ]
+    },
+    {
+      "slug": "sagar",
+      "name": "Sagar",
+      "tier": 3,
+      "focus": "Coffee belt trade and weekly santhe",
+      "primaryCategories": [
+        "markets",
+        "food",
+        "retail_shops"
+      ]
+    }
+  ]
+}

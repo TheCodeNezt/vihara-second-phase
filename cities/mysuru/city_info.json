@@ -1,0 +1,21 @@
+{
+  "slug": "mysuru",
+  "name": "Mysuru",
+  "tagline": "The City of Palaces — Chamundi Devi gopurams, the royal darbar hall, Devaraja markets, silk, coffee and lakeside stays.",
+  "fetchedAt": "2026-09-15T18:22:04.738Z",
+  "center": {
+    "latitude": 12.2958104,
+    "longitude": 76.6393805
+  },
+  "state": "karnataka",
+  "district": "mysuru",
+  "tier": 1,
+  "focus": "Palaces, temples and royal heritage",
+  "primaryCategories": [
+    "temples",
+    "travels",
+    "stays",
+    "food",
+    "nature"
+  ]
+}

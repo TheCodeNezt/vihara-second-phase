@@ -1,0 +1,20 @@
+{
+  "slug": "tumakuru",
+  "name": "Tumakuru",
+  "tagline": "Tumakuru — the mango city's riverside markets, dairy heartland and a growing retail and services economy.",
+  "fetchedAt": "2026-09-15T18:22:05.312Z",
+  "center": {
+    "latitude": 13.3378762,
+    "longitude": 77.117325
+  },
+  "state": "karnataka",
+  "district": "tumakuru",
+  "tier": 1,
+  "focus": "Mango trade, dairy and retail",
+  "primaryCategories": [
+    "markets",
+    "food",
+    "retail_shops",
+    "services"
+  ]
+}

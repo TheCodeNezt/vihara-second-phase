@@ -1,0 +1,32 @@
+[
+  {
+    "src": "./images/landmarks/st_alloysi_church.jpg",
+    "cat": "nature",
+    "desc": "St.Aloysius Chapel"
+  },
+  {
+    "src": "./images/landmarks/central_market.jpg",
+    "cat": "shop",
+    "desc": "Central market"
+  },
+  {
+    "src": "./images/landmarks/mangaluru_port.jpg",
+    "cat": "nature",
+    "desc": "Mangalore Old Port"
+  },
+  {
+    "src": "./images/landmarks/kadari_majunarasa.jpg",
+    "cat": "temple",
+    "desc": "Kadri Shree Manjunatha Temple"
+  },
+  {
+    "src": "./images/landmarks/mangaluru_beach.jpg",
+    "cat": "nature",
+    "desc": "Panambur Beach"
+  },
+  {
+    "src": "./images/landmarks/mangaluru_harbour.jpg",
+    "cat": "nature",
+    "desc": "New Mangalore Port Authority"
+  }
+]

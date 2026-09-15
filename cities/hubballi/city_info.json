@@ -1,0 +1,21 @@
+{
+  "slug": "hubballi",
+  "name": "Hubballi",
+  "tagline": "Hubballi–Dharwad's twin-city trade — Ganesha and Chandramouleshwara temples, Old Hubli bazaar and Vidyanagari's food.",
+  "fetchedAt": "2026-09-15T18:22:04.906Z",
+  "center": {
+    "latitude": 15.3647083,
+    "longitude": 75.1239547
+  },
+  "state": "karnataka",
+  "district": "hubballi",
+  "tier": 1,
+  "focus": "Twin-city trade, food and services",
+  "primaryCategories": [
+    "food",
+    "retail_shops",
+    "services",
+    "markets",
+    "stays"
+  ]
+}

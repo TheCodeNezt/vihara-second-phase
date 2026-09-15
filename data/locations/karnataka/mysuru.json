@@ -1,0 +1,45 @@
+{
+  "state": "karnataka",
+  "stateDisplay": "Karnataka",
+  "district": "mysuru",
+  "districtDisplay": "Mysuru",
+  "blurb": "Mysuru — the City of Palaces: heritage gopurams, royal gardens, silk and coffee trade, lakeside resorts and a thriving food scene.",
+  "focusImage": "",
+  "tiers": {
+    "1": {
+      "name": "Tier 1 — Town Centres",
+      "tagline": "Full commercial hubs: retail, restaurants, services and gyms.",
+      "icon": "fa-city"
+    },
+    "2": {
+      "name": "Tier 2 — Heritage & Tourism",
+      "tagline": "Homestays, resorts, cafes and cultural heritage with rich visuals.",
+      "icon": "fa-mountain-sun"
+    },
+    "3": {
+      "name": "Tier 3 — Regional Trade",
+      "tagline": "Weekly santhes, markets and contractor services.",
+      "icon": "fa-store"
+    },
+    "4": {
+      "name": "Tier 4 — Micro Markets",
+      "tagline": "Specialised boutique offerings and smaller town conveniences.",
+      "icon": "fa-shop"
+    }
+  },
+  "towns": [
+    {
+      "slug": "mysuru",
+      "name": "Mysuru",
+      "tier": 1,
+      "focus": "Palaces, temples and royal heritage",
+      "primaryCategories": [
+        "temples",
+        "travels",
+        "stays",
+        "food",
+        "nature"
+      ]
+    }
+  ]
+}

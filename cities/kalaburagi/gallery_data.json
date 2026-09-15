@@ -1,0 +1,22 @@
+[
+  {
+    "src": "./images/landmarks/chaturbhujendra.jpg",
+    "cat": "temple",
+    "desc": "Shri Sharana Basaveshwara Temple Gulbarga"
+  },
+  {
+    "src": "./images/landmarks/kalaburagi_old_market.jpg",
+    "cat": "nature",
+    "desc": "Shravanbela Gola (Rural)"
+  },
+  {
+    "src": "./images/landmarks/kalaburagi_market.jpg",
+    "cat": "shop",
+    "desc": "Gulbarga Saturday Market"
+  },
+  {
+    "src": "./images/landmarks/kalaburagi_bazaar.jpg",
+    "cat": "shop",
+    "desc": "Vegetable Market"
+  }
+]

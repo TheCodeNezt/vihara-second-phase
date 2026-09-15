@@ -1,0 +1,57 @@
+{
+  "state": "karnataka",
+  "stateDisplay": "Karnataka",
+  "district": "hubballi",
+  "districtDisplay": "Hubballi",
+  "blurb": "Hubballi–Dharwad — twin-city cultural heart of Vidyanagari, famous for jaggery, ghatta and the Hubli-Bagalkot trade corridor.",
+  "focusImage": "",
+  "tiers": {
+    "1": {
+      "name": "Tier 1 — Town Centres",
+      "tagline": "Full commercial hubs: retail, restaurants, services and gyms.",
+      "icon": "fa-city"
+    },
+    "2": {
+      "name": "Tier 2 — Heritage & Tourism",
+      "tagline": "Homestays, resorts, cafes and cultural heritage with rich visuals.",
+      "icon": "fa-mountain-sun"
+    },
+    "3": {
+      "name": "Tier 3 — Regional Trade",
+      "tagline": "Weekly santhes, markets and contractor services.",
+      "icon": "fa-store"
+    },
+    "4": {
+      "name": "Tier 4 — Micro Markets",
+      "tagline": "Specialised boutique offerings and smaller town conveniences.",
+      "icon": "fa-shop"
+    }
+  },
+  "towns": [
+    {
+      "slug": "hubballi",
+      "name": "Hubballi",
+      "tier": 1,
+      "focus": "Twin-city trade, food and services",
+      "primaryCategories": [
+        "food",
+        "retail_shops",
+        "services",
+        "markets",
+        "stays"
+      ]
+    },
+    {
+      "slug": "dharwad",
+      "name": "Dharwad",
+      "tier": 1,
+      "focus": "Jaggery, sweets and cultural capital",
+      "primaryCategories": [
+        "food",
+        "street_food",
+        "markets",
+        "retail_shops"
+      ]
+    }
+  ]
+}

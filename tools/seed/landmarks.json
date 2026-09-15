@@ -1,0 +1,552 @@
+{
+  "mysuru:chamundi_temple.jpg": {
+    "name": "Sri Chamundeshwari Temple",
+    "placeId": "ChIJN46-cWBwrzsRXsYH83YJuXQ",
+    "location": {
+      "latitude": 12.2725072,
+      "longitude": 76.67072139999999
+    },
+    "photo": "../../images/landmarks/chamundi_temple.jpg",
+    "raw": "Chamundi Temple, Mysore",
+    "desc": "Chamundi Devi Temple atop Chamundi Hill"
+  },
+  "mysuru:mysore_palace.jpg": {
+    "name": "Mysuru Palace",
+    "placeId": "ChIJ-aH5AxFwrzsRDdokoeK6f8M",
+    "location": {
+      "latitude": 12.305163,
+      "longitude": 76.65517489999999
+    },
+    "photo": "../../images/landmarks/mysore_palace.jpg",
+    "raw": "Mysore Palace, Mysore",
+    "desc": "Amba Vilasa Palace, the royal darbar hall"
+  },
+  "mysuru:devaraja_market.jpg": {
+    "name": "Devaraja market",
+    "placeId": "ChIJF2TzXABxrzsRTAh8JS-dUro",
+    "location": {
+      "latitude": 12.3104046,
+      "longitude": 76.65248249999999
+    },
+    "photo": "../../images/landmarks/devaraja_market.jpg",
+    "raw": "Devaraja Market, Mysore",
+    "desc": "Devaraja Junction market — gold, silk and antiques"
+  },
+  "mysuru:chamundi_hills.jpg": {
+    "name": "Chamundi Hill",
+    "placeId": "ChIJI1OULs9vrzsRryMl5YUVXLo",
+    "location": {
+      "latitude": 12.2731672,
+      "longitude": 76.6707435
+    },
+    "photo": "../../images/landmarks/chamundi_hills.jpg",
+    "raw": "Chamundi Hills, Mysore",
+    "desc": "Chamundi Hills overlook"
+  },
+  "mysuru:brindavan_garden.jpg": {
+    "name": "Brindavana Gardens",
+    "placeId": "ChIJXcr-CeF4rzsRsrbm4H66X5E",
+    "location": {
+      "latitude": 12.423273199999999,
+      "longitude": 76.5745085
+    },
+    "photo": "../../images/landmarks/brindavan_garden.jpg",
+    "raw": "Brindavan Garden, Mysore",
+    "desc": "Sri Brindavan Garden on the Kaveri"
+  },
+  "mysuru:karanji_lake.jpg": {
+    "name": "Karanji Lake",
+    "placeId": "ChIJo-OaLyVwrzsR4WmjeKtUdGg",
+    "location": {
+      "latitude": 12.302778,
+      "longitude": 76.673611
+    },
+    "photo": "../../images/landmarks/karanji_lake.jpg",
+    "raw": "Karanji Lake, Mysore",
+    "desc": "Karanji Lake and Bird Sanctuary"
+  },
+  "mangaluru:st_alloysi_church.jpg": {
+    "name": "St.Aloysius Chapel",
+    "placeId": "ChIJjb_NzUhaozsRosdnrrU8Wzk",
+    "location": {
+      "latitude": 12.873883000000001,
+      "longitude": 74.8453011
+    },
+    "photo": "../../images/landmarks/st_alloysi_church.jpg",
+    "raw": "St. Aloysi Church, Mangalore",
+    "desc": "St. Aloysius Cathedral on Goglan Hill"
+  },
+  "mangaluru:central_market.jpg": {
+    "name": "Central market",
+    "placeId": "ChIJs8OfFbhbozsRRD8hsob4XvY",
+    "location": {
+      "latitude": 12.837201799999999,
+      "longitude": 74.90702379999999
+    },
+    "photo": "../../images/landmarks/central_market.jpg",
+    "raw": "Mangaluru Central Market",
+    "desc": "Mangaluru's central market"
+  },
+  "mangaluru:mangaluru_port.jpg": {
+    "name": "Mangalore Old Port",
+    "placeId": "ChIJvYC_kaRbozsRKJE2_BJ_ncE",
+    "location": {
+      "latitude": 12.8499687,
+      "longitude": 74.8353607
+    },
+    "photo": "../../images/landmarks/mangaluru_port.jpg",
+    "raw": "Mangaluru Port",
+    "desc": "Mangaluru harbour"
+  },
+  "mangaluru:kadari_majunarasa.jpg": {
+    "name": "Kadri Shree Manjunatha Temple",
+    "placeId": "ChIJ0Tp3ZD5aozsRCJP_2K4FXeM",
+    "location": {
+      "latitude": 12.8857251,
+      "longitude": 74.85561659999999
+    },
+    "photo": "../../images/landmarks/kadari_majunarasa.jpg",
+    "raw": "Kadri Manjunatha Temple, Mangalore",
+    "desc": "Kadri Manjunatha Temple"
+  },
+  "mangaluru:mangaluru_beach.jpg": {
+    "name": "Panambur Beach",
+    "placeId": "ChIJGX8kHstRozsRreQ_npNssow",
+    "location": {
+      "latitude": 12.9371312,
+      "longitude": 74.8043149
+    },
+    "photo": "../../images/landmarks/mangaluru_beach.jpg",
+    "raw": "Mangaluru Beach",
+    "desc": "Mangaluru harbour beach"
+  },
+  "mangaluru:mangaluru_harbour.jpg": {
+    "name": "New Mangalore Port Authority",
+    "placeId": "ChIJD-7eJ2FQozsRO55XR0krADY",
+    "location": {
+      "latitude": 12.928109,
+      "longitude": 74.822216
+    },
+    "photo": "../../images/landmarks/mangaluru_harbour.jpg",
+    "raw": "Mangaluru Port & Waterfront",
+    "desc": "Mangaluru harbour"
+  },
+  "hubballi:hubballi_bus_stand.jpg": {
+    "name": "Hubballi Bus Stand (Hosur)",
+    "placeId": "ChIJ7VQR2XbXuDsR-V8FjlHXGZ0",
+    "location": {
+      "latitude": 15.3564872,
+      "longitude": 75.12807939999999
+    },
+    "photo": "../../images/landmarks/hubballi_bus_stand.jpg",
+    "raw": "Hubballi Bus Stand",
+    "desc": "Hubballi bus stand"
+  },
+  "hubballi:ganapathi_temple.jpg": {
+    "name": "Shri Ganesha Temple",
+    "placeId": "ChIJ2fUwb9jWuDsRDSmmI8KEIyU",
+    "location": {
+      "latitude": 15.3548386,
+      "longitude": 75.1066529
+    },
+    "photo": "../../images/landmarks/ganapathi_temple.jpg",
+    "raw": "Ganapathi Temple, Hubli",
+    "desc": "Ganapathi Temple, Hubballi"
+  },
+  "hubballi:hubballi_market.jpg": {
+    "name": "Old Hubli Market",
+    "placeId": "ChIJ2ZsOuxLXuDsRJ6fsDQehESo",
+    "location": {
+      "latitude": 15.336002499999998,
+      "longitude": 75.1311834
+    },
+    "photo": "../../images/landmarks/hubballi_market.jpg",
+    "raw": "Hubballi Central Market",
+    "desc": "Hubballi's central market"
+  },
+  "hubballi:pramodamba_temple.jpg": {
+    "name": "Shri Chandramauleshwara Temple, Hubballi",
+    "placeId": "ChIJXU5PptHQuDsRgjr1PoUWPa0",
+    "location": {
+      "latitude": 15.376813399999998,
+      "longitude": 75.11647119999999
+    },
+    "photo": "../../images/landmarks/pramodamba_temple.jpg",
+    "raw": "Pramodamba Temple, Hubli",
+    "desc": "Pramodamba Temple, Hubballi"
+  },
+  "hubballi:dharwad_city.jpg": {
+    "name": "Dharwad",
+    "placeId": "ChIJp6uJ2GLNuDsRcM97cUQhT1o",
+    "location": {
+      "latitude": 15.4589466,
+      "longitude": 75.00785859999999
+    },
+    "photo": "../../images/landmarks/dharwad_city.jpg",
+    "raw": "Dharwad City",
+    "desc": "Dharwad old town"
+  },
+  "belagavi:margaesvara_temple.jpg": {
+    "name": "Shree Gurugunta Amareshwara Temple",
+    "placeId": "ChIJl73KDyIFyDsR-WBn4qtagIk",
+    "location": {
+      "latitude": 16.2559654,
+      "longitude": 76.5620892
+    },
+    "photo": "../../images/landmarks/margaesvara_temple.jpg",
+    "raw": "Margaeshwara Temple, Belgaum",
+    "desc": "Margaeshwara Temple, Belagavi"
+  },
+  "belagavi:belagavi_market.jpg": {
+    "name": "Belagavi Wholesale Market",
+    "placeId": "ChIJfwegmotnvzsRsBTEu03_XPc",
+    "location": {
+      "latitude": 15.8569028,
+      "longitude": 74.5145465
+    },
+    "photo": "",
+    "raw": "Belagavi Old Market",
+    "desc": "Belagavi old town market"
+  },
+  "belagavi:belagavi_bus_stand.jpg": {
+    "name": "Belagavi Bus Stand",
+    "placeId": "ChIJ6QGjM8RnvzsR7LIbuZyYsvg",
+    "location": {
+      "latitude": 15.861783299999997,
+      "longitude": 74.5213389
+    },
+    "photo": "../../images/landmarks/belagavi_bus_stand.jpg",
+    "raw": "Belagavi Bus Stand",
+    "desc": "Belagavi bus stand"
+  },
+  "belagavi:belagavi_temple.jpg": {
+    "name": "Shree Gurugunta Amareshwara Temple",
+    "placeId": "ChIJl73KDyIFyDsR-WBn4qtagIk",
+    "location": {
+      "latitude": 16.2559654,
+      "longitude": 76.5620892
+    },
+    "photo": "../../images/landmarks/belagavi_temple.jpg",
+    "raw": "Margaeshwara Temple, Belgaum",
+    "desc": "Margaeshwara Temple"
+  },
+  "shivamogga:talakadu.jpg": {
+    "name": "Talakad",
+    "placeId": "ChIJu_17Y8YZrzsRjMgdbbHQK5o",
+    "location": {
+      "latitude": 12.181084300000002,
+      "longitude": 77.03917539999999
+    },
+    "photo": "../../images/landmarks/talakadu.jpg",
+    "raw": "Talakadu, Karnataka",
+    "desc": "Talakadu — the city of lost kings"
+  },
+  "shivamogga:kodagu_waterfalls.jpg": {
+    "name": "Mallalli Waterfalls",
+    "placeId": "ChIJm3Lcj-QdpTsRhM-89KNnm2Q",
+    "location": {
+      "latitude": 12.680643,
+      "longitude": 75.72366699999999
+    },
+    "photo": "../../images/landmarks/kodagu_waterfalls.jpg",
+    "raw": "Kodagu Waterfalls, Karnataka",
+    "desc": "Kodagu waterfalls and forests"
+  },
+  "shivamogga:kushalnagar.jpg": {
+    "name": "Kushalnagar",
+    "placeId": "ChIJE2LkfbgJpTsRHQE_7gMrzdI",
+    "location": {
+      "latitude": 12.4574615,
+      "longitude": 75.9602749
+    },
+    "photo": "../../images/landmarks/kushalnagar.jpg",
+    "raw": "Kushalnagar, Karnataka",
+    "desc": "Kushalnagar lake and forest"
+  },
+  "shivamogga:shivamogga_market.jpg": {
+    "name": "APMC Market Main Gate, Shivamogga",
+    "placeId": "ChIJLZJSwrypuzsRShuEkqU6aRA",
+    "location": {
+      "latitude": 13.940942,
+      "longitude": 75.5499925
+    },
+    "photo": "../../images/landmarks/shivamogga_market.jpg",
+    "raw": "Shivamogga City Market",
+    "desc": "Shivamogga's main market"
+  },
+  "shivamogga:talakadu_ruins.jpg": {
+    "name": "Talakad",
+    "placeId": "ChIJu_17Y8YZrzsRjMgdbbHQK5o",
+    "location": {
+      "latitude": 12.181084300000002,
+      "longitude": 77.03917539999999
+    },
+    "photo": "../../images/landmarks/talakadu_ruins.jpg",
+    "raw": "Talakadu",
+    "desc": "Talakadu ruins"
+  },
+  "kalaburagi:chaturbhujendra.jpg": {
+    "name": "Shri Sharana Basaveshwara Temple Gulbarga",
+    "placeId": "ChIJEfohA1jHyDsRYCLEQgsgyEA",
+    "location": {
+      "latitude": 17.3362564,
+      "longitude": 76.82619969999999
+    },
+    "photo": "../../images/landmarks/chaturbhujendra.jpg",
+    "raw": "Chaturbhujendra Basadi, Kalaburagi",
+    "desc": "Chaturbhujendra Basadi, Kalaburagi"
+  },
+  "kalaburagi:kalaburagi_old_market.jpg": {
+    "name": "Shravanbela Gola (Rural)",
+    "placeId": "ChIJV51Cmw31rzsRUOSDJFw5B_w",
+    "location": {
+      "latitude": 12.851896,
+      "longitude": 76.4807385
+    },
+    "photo": "../../images/landmarks/kalaburagi_old_market.jpg",
+    "raw": "Shravanabelagola",
+    "desc": "Kalaburagi's old market"
+  },
+  "kalaburagi:kalaburagi_market.jpg": {
+    "name": "Gulbarga Saturday Market",
+    "placeId": "ChIJhUPLblvHyDsRUkgjvZ3Lbz0",
+    "location": {
+      "latitude": 17.341685299999998,
+      "longitude": 76.8348055
+    },
+    "photo": "../../images/landmarks/kalaburagi_market.jpg",
+    "raw": "Kalaburagi City Market",
+    "desc": "Kalaburagi market"
+  },
+  "kalaburagi:kalaburagi_bazaar.jpg": {
+    "name": "Vegetable Market",
+    "placeId": "ChIJ6aF1NFvHyDsRNGY8ZH-JktI",
+    "location": {
+      "latitude": 17.34077,
+      "longitude": 76.83724
+    },
+    "photo": "../../images/landmarks/kalaburagi_bazaar.jpg",
+    "raw": "Kalaburagi Old Market",
+    "desc": "Kalaburagi bazaar"
+  },
+  "ballari:sri_rukmini_kalika.jpg": {
+    "name": "Rukmini Panduranga Temple",
+    "placeId": "ChIJ14_OofYTtzsRholjUPyXa5M",
+    "location": {
+      "latitude": 15.1202601,
+      "longitude": 76.901123
+    },
+    "photo": "../../images/landmarks/sri_rukmini_kalika.jpg",
+    "raw": "Sri Rukmini Kalika Temple, Ballari",
+    "desc": "Sri Rukmini Kalika Temple, Ballari"
+  },
+  "ballari:ballari_rock_caves.jpg": {
+    "name": "Ballari Fort",
+    "placeId": "ChIJ5RT2T9oTtzsRIQIKS1EkI2w",
+    "location": {
+      "latitude": 15.1452816,
+      "longitude": 76.9144831
+    },
+    "photo": "../../images/landmarks/ballari_rock_caves.jpg",
+    "raw": "Ballari Rock Caves",
+    "desc": "Ballari rock-cut cave temples"
+  },
+  "ballari:ballari_bazaar.jpg": {
+    "name": "Ballari District Stadium || Cowl Bazaar || Ballari",
+    "placeId": "ChIJxxLGreETtzsRuChSvRGyCX4",
+    "location": {
+      "latitude": 15.1365126,
+      "longitude": 76.9158605
+    },
+    "photo": "../../images/landmarks/ballari_bazaar.jpg",
+    "raw": "Ballari Bazaar",
+    "desc": "Ballari's main bazaar"
+  },
+  "ballari:ballari_old_city.jpg": {
+    "name": "Ballari Old Bus Stand",
+    "placeId": "ChIJU7tyBYMRtzsRJezA97LMKG4",
+    "location": {
+      "latitude": 15.1460835,
+      "longitude": 76.9278551
+    },
+    "photo": "../../images/landmarks/ballari_old_city.jpg",
+    "raw": "Ballari Old City",
+    "desc": "Ballari's old city"
+  },
+  "ballari:ballari_bus_stand.jpg": {
+    "name": "Ballari bus stand",
+    "placeId": "ChIJX-fCNEcRtzsR1MyHrVowQbw",
+    "location": {
+      "latitude": 15.1372483,
+      "longitude": 76.9187828
+    },
+    "photo": "../../images/landmarks/ballari_bus_stand.jpg",
+    "raw": "Ballari Bus Stand",
+    "desc": "Ballari bus stand"
+  },
+  "tumakuru:tumakuru_bus_stand.jpg": {
+    "name": "Tumkur KSRTC Bus Stand",
+    "placeId": "ChIJB0aKRJovsDsRydIK3UvbZ4c",
+    "location": {
+      "latitude": 13.341101600000002,
+      "longitude": 77.1019505
+    },
+    "photo": "../../images/landmarks/tumakuru_bus_stand.jpg",
+    "raw": "Tumakuru Bus Stand",
+    "desc": "Tumakuru bus stand"
+  },
+  "tumakuru:tumakuru_market.jpg": {
+    "name": "Tumkur market",
+    "placeId": "ChIJtVAGLEEtsDsRxMLNJh2aHxQ",
+    "location": {
+      "latitude": 13.3694446,
+      "longitude": 77.1082698
+    },
+    "photo": "../../images/landmarks/tumakuru_market.jpg",
+    "raw": "Tumakuru Market",
+    "desc": "Tumakuru market"
+  },
+  "tumakuru:tumakuru_old_city.jpg": {
+    "name": "Tumakur",
+    "placeId": "ChIJuSMuYzsssDsRuzfX6TmyX-E",
+    "location": {
+      "latitude": 13.3378762,
+      "longitude": 77.117325
+    },
+    "photo": "../../images/landmarks/tumakuru_old_city.jpg",
+    "raw": "Tumakuru Old City",
+    "desc": "Tumakuru old city"
+  },
+  "tumakuru:tumakuru_railway.jpg": {
+    "name": "Tumkur Railway Station",
+    "placeId": "ChIJ8-Ojq-AvsDsRyuopl87eQxg",
+    "location": {
+      "latitude": 13.334059499999999,
+      "longitude": 77.1019723
+    },
+    "photo": "../../images/landmarks/tumakuru_railway.jpg",
+    "raw": "Tumakuru Railway Station",
+    "desc": "Tumakuru railway station"
+  },
+  "tumakuru:tumakuru_city_market.jpg": {
+    "name": "Tumkur market",
+    "placeId": "ChIJtVAGLEEtsDsRxMLNJh2aHxQ",
+    "location": {
+      "latitude": 13.3694446,
+      "longitude": 77.1082698
+    },
+    "photo": "../../images/landmarks/tumakuru_city_market.jpg",
+    "raw": "Tumakuru City Market",
+    "desc": "Tumakuru market"
+  },
+  "davanagere:davanagere_market.jpg": {
+    "name": "Krishnna Raja Market",
+    "placeId": "ChIJSeQso5glujsRfdIqtvW1P-c",
+    "location": {
+      "latitude": 14.471285900000002,
+      "longitude": 75.9231657
+    },
+    "photo": "../../images/landmarks/davanagere_market.jpg",
+    "raw": "Davanagere Market",
+    "desc": "Davanagere market"
+  },
+  "davanagere:davanagere_old_city.jpg": {
+    "name": "Davangere Municipal Corporation Office",
+    "placeId": "ChIJU0Wq-J4lujsRiDY2N3ciPsk",
+    "location": {
+      "latitude": 14.466746800000001,
+      "longitude": 75.9197978
+    },
+    "photo": "../../images/landmarks/davanagere_old_city.jpg",
+    "raw": "Davanagere Old City",
+    "desc": "Davanagere's old city"
+  },
+  "davanagere:davanagere_bus_stand.jpg": {
+    "name": "Davanagere New KSRTC Bus Stand",
+    "placeId": "ChIJbwkI4gslujsRGaGhuihUtEU",
+    "location": {
+      "latitude": 14.459673599999999,
+      "longitude": 75.9289005
+    },
+    "photo": "../../images/landmarks/davanagere_bus_stand.jpg",
+    "raw": "Davanagere Bus Stand",
+    "desc": "Davanagere bus stand"
+  },
+  "davanagere:davanagere_city.jpg": {
+    "name": "Davangere",
+    "placeId": "ChIJ5SJianIlujsRctTGR-ENEko",
+    "location": {
+      "latitude": 14.4644085,
+      "longitude": 75.921758
+    },
+    "photo": "../../images/landmarks/davanagere_city.jpg",
+    "raw": "Davanagere City",
+    "desc": "Davanagere city centre"
+  },
+  "davanagere:davanagere_bazaar.jpg": {
+    "name": "Krishnna Raja Market",
+    "placeId": "ChIJSeQso5glujsRfdIqtvW1P-c",
+    "location": {
+      "latitude": 14.471285900000002,
+      "longitude": 75.9231657
+    },
+    "photo": "../../images/landmarks/davanagere_bazaar.jpg",
+    "raw": "Davanagere Market",
+    "desc": "Davanagere bazaar"
+  },
+  "hassan:hassan_bus_stand.jpg": {
+    "name": "Hassan KSRTC Bus Stand",
+    "placeId": "ChIJFYye9RNIpTsRBEGtvvsr75A",
+    "location": {
+      "latitude": 12.9980107,
+      "longitude": 76.1042563
+    },
+    "photo": "../../images/landmarks/hassan_bus_stand.jpg",
+    "raw": "Hassan Bus Stand",
+    "desc": "Hassan bus stand"
+  },
+  "hassan:hassan_market.jpg": {
+    "name": "Hassan Market",
+    "placeId": "ChIJS1mpcjBJpTsRsQnMHR7aHo4",
+    "location": {
+      "latitude": 13.0048286,
+      "longitude": 76.0991296
+    },
+    "photo": "../../images/landmarks/hassan_market.jpg",
+    "raw": "Hassan City Market",
+    "desc": "Hassan market"
+  },
+  "hassan:hassan_old_city.jpg": {
+    "name": "Hassan City Bus Stand",
+    "placeId": "ChIJsWjFCD1IpTsR5voCyoFsuXY",
+    "location": {
+      "latitude": 13.0056917,
+      "longitude": 76.0997792
+    },
+    "photo": "../../images/landmarks/hassan_old_city.jpg",
+    "raw": "Hassan Old City",
+    "desc": "Hassan's old city"
+  },
+  "hassan:hassan_lake.jpg": {
+    "name": "Hunasinakere lake",
+    "placeId": "ChIJVwU8W0E3pTsRzkmD2dEvQYM",
+    "location": {
+      "latitude": 13.0128787,
+      "longitude": 76.08329719999999
+    },
+    "photo": "../../images/landmarks/hassan_lake.jpg",
+    "raw": "Hassan Lake",
+    "desc": "Hassan's lake"
+  },
+  "hassan:hassan_railway.jpg": {
+    "name": "Hassan Junction Railway Station (HAS)",
+    "placeId": "ChIJV0legk5JpTsRFKldtTwc0NU",
+    "location": {
+      "latitude": 13.0034013,
+      "longitude": 76.1178159
+    },
+    "photo": "../../images/landmarks/hassan_railway.jpg",
+    "raw": "Hassan Railway Station",
+    "desc": "Hassan railway station"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "src": "./images/landmarks/margaesvara_temple.jpg",
+    "cat": "temple",
+    "desc": "Shree Gurugunta Amareshwara Temple"
+  },
+  {
+    "src": "./images/landmarks/belagavi_bus_stand.jpg",
+    "cat": "nature",
+    "desc": "Belagavi Bus Stand"
+  }
+]

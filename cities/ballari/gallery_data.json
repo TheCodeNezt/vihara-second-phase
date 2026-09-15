@@ -1,0 +1,27 @@
+[
+  {
+    "src": "./images/landmarks/sri_rukmini_kalika.jpg",
+    "cat": "temple",
+    "desc": "Rukmini Panduranga Temple"
+  },
+  {
+    "src": "./images/landmarks/ballari_rock_caves.jpg",
+    "cat": "nature",
+    "desc": "Ballari Fort"
+  },
+  {
+    "src": "./images/landmarks/ballari_bazaar.jpg",
+    "cat": "shop",
+    "desc": "Ballari District Stadium || Cowl Bazaar || Ballari"
+  },
+  {
+    "src": "./images/landmarks/ballari_old_city.jpg",
+    "cat": "nature",
+    "desc": "Ballari Old Bus Stand"
+  },
+  {
+    "src": "./images/landmarks/ballari_bus_stand.jpg",
+    "cat": "nature",
+    "desc": "Ballari bus stand"
+  }
+]

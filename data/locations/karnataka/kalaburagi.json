@@ -1,0 +1,44 @@
+{
+  "state": "karnataka",
+  "stateDisplay": "Karnataka",
+  "district": "kalaburagi",
+  "districtDisplay": "Kalaburagi",
+  "blurb": "Kalaburagi — historic trade town of the Deccan, known for its old bazaar, Jain heritage and the region's grain markets.",
+  "focusImage": "",
+  "tiers": {
+    "1": {
+      "name": "Tier 1 — Town Centres",
+      "tagline": "Full commercial hubs: retail, restaurants, services and gyms.",
+      "icon": "fa-city"
+    },
+    "2": {
+      "name": "Tier 2 — Heritage & Tourism",
+      "tagline": "Homestays, resorts, cafes and cultural heritage with rich visuals.",
+      "icon": "fa-mountain-sun"
+    },
+    "3": {
+      "name": "Tier 3 — Regional Trade",
+      "tagline": "Weekly santhes, markets and contractor services.",
+      "icon": "fa-store"
+    },
+    "4": {
+      "name": "Tier 4 — Micro Markets",
+      "tagline": "Specialised boutique offerings and smaller town conveniences.",
+      "icon": "fa-shop"
+    }
+  },
+  "towns": [
+    {
+      "slug": "kalaburagi",
+      "name": "Kalaburagi",
+      "tier": 1,
+      "focus": "Old bazaar, Jain heritage and grain trade",
+      "primaryCategories": [
+        "markets",
+        "temples",
+        "food",
+        "retail_shops"
+      ]
+    }
+  ]
+}
